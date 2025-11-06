@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+  <title>Terms and Conditions</title>
+  <meta name="description" content="Terms and Conditions" />
+  <meta name="keywords" content="Terms and Conditions" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function contactusbutton() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var phone = document.getElementById("phone").value;
+      var city = document.getElementById("city").value;
+
+      if (name == "" || name == null) {
+        document.getElementById("name").focus();
+        return false;
+      }
+
+      if (phone == "" || phone == null) {
+        document.getElementById("phone").focus();
+        return false;
+      }
+
+      if (phone.length > 15 || phone.length < 10) {
+        document.getElementById("phone").focus();
+        alert("Plase enter your 10 digit mobile number");
+        return false;
+      }
+
+      if (email == "" || email == null) {
+        document.getElementById("email").focus();
+        return false;
+      }
+
+      var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+      if (reg.test(email) == false) {
+        alert("Invalid Email Address");
+
+        return false;
+      }
+
+      if (city == "" || city == null) {
+        document.getElementById("city").focus();
+        return false;
+      }
+
+      //   document.getElementById('contactusbutton').style.display = "none";
+      $("#SubmitQuery").prop("disabled", true);
+
+      $.ajax({
+        header: { "Access-Control-Allow-Origin": "*" },
+        url: "https://investoxpert.remserp.com/WebCreate.aspx",
+        data: {
+          UID: "fourqt",
+          PWD: "wn9mxO76f34=",
+          name: name,
+          Email: email,
+          Mob: phone,
+          Channel: "MS",
+          Src: "XD",
+          City: "",
+          Location: "",
+          Project: "The Kutumb",
+          Remark: "",
+          url: "",
+          fld1: utm_source,
+          fld2: utm_campaignID,
+          fld3: utm_medium,
+          fld4: utm_term,
+          Adset_Name: gclid,
+        },
+
+        cache: "false",
+        type: "get",
+        success: function (res) {
+          var ip = document.getElementById("ip").value;
+          var message = "";
+          $.ajax({
+            header: { "Access-Control-Allow-Origin": "*" },
+            url: "https://lms.xdimension.in/request.php",
+            data: {
+              name: name,
+              Email: email,
+              Mob: phone,
+              city: city,
+              Project: "The Kutumb",
+              ip: ip,
+              message: message,
+              gclid: gclid,
+              utm_source: utm_source,
+              utm_campaignID: utm_campaignID,
+              utm_medium: utm_medium,
+              utm_term: utm_term,
+            },
+            cache: "false",
+            type: "post",
+          });
+
+          setTimeout(function () {
+            window.location.href = "http://kutumbaditya.com/thankyou.html";
+          }, 100);
+        },
+      });
+    }
+  </script>
+  <script>
+    function contactusbutton1() {
+      var name1 = document.getElementById("name1").value;
+      var email1 = document.getElementById("email1").value;
+      var phone1 = document.getElementById("phone1").value;
+      var city = document.getElementById("city").value;
+
+      if (name1 == "" || name1 == null) {
+        document.getElementById("name1").focus();
+        return false;
+      }
+      if (phone1 == "" || phone1 == null) {
+        document.getElementById("phone").focus();
+        return false;
+      }
+
+      if (phone1.length > 15 || phone1.length < 10) {
+        document.getElementById("phone1").focus();
+        alert("Plase enter your 10 digit mobile number");
+        return false;
+      }
+
+      if (email1 == "" || email1 == null) {
+        document.getElementById("email1").focus();
+        return false;
+      }
+
+      var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+      if (reg.test(email1) == false) {
+        alert("Invalid Email Address");
+
+        return false;
+      }
+      //   document.getElementById('contactusbutton').style.display = "none";
+      $("#SubmitQuery1").prop("disabled", true);
+
+      $.ajax({
+        header: { "Access-Control-Allow-Origin": "*" },
+        url: "https://investoxpert.remserp.com/WebCreate.aspx",
+        data: {
+          UID: "fourqt",
+          PWD: "wn9mxO76f34=",
+          name: name1,
+          Email: email1,
+          Mob: phone1,
+          Channel: "MS",
+          Src: "XD",
+          City: "",
+          Location: "",
+          Project: "The Kutumb",
+          Remark: "",
+          url: "",
+          fld1: utm_source,
+          fld2: utm_campaignID,
+          fld3: utm_medium,
+          fld4: utm_term,
+          Adset_Name: gclid,
+        },
+
+        cache: "false",
+        type: "get",
+        success: function (res) {
+          var ip = document.getElementById("ip").value;
+          var message = "";
+          $.ajax({
+            header: { "Access-Control-Allow-Origin": "*" },
+            url: "https://lms.xdimension.in/request.php",
+            data: {
+              name: name1,
+              Email: email1,
+              Mob: phone1,
+              city: city,
+              Project: "The Kutumb",
+              ip: ip,
+              message: message,
+              gclid: gclid,
+              utm_source: utm_source,
+              utm_campaignID: utm_campaignID,
+              utm_medium: utm_medium,
+              utm_term: utm_term,
+            },
+            cache: "false",
+            type: "post",
+          });
+
+          setTimeout(function () {
+            window.location.href = "http://kutumbaditya.com/thankyou.html";
+          }, 100);
+        },
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <!-- header -->
+
+  <nav class="navbar">
+    <a class="navbar-brand" href="/">
+      <img src="images/logo.jpg" alt="Builder Logo" class="img-fluid d_sm_none builder_logo" />
+      <img src="images/logo.jpg" alt="Builder Logo" class="img-fluid d-none d_sm_block" />
+    </a>
+
+    <!-- another mobile number on bottom -->
+
+    <a class="btn btn_dark_fill icon_btn round call_btn d_sm_none" href="tel:919560252011"><span class="icon"><img
+          src="images/icons/call.png" alt="call icon" class="img-fluid" /></span>
+      <div class="right">
+        <span class="txt">Give us a call</span>
+        <span class="num blinker">+91-9560252011</span>
+      </div>
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="top">
+        <img src="images/logo.jpg" alt="Developer Logo" class="img-fluid logo" />
+        <div class="close">×</div>
+      </div>
+
+      <!-- <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#price-list">Price List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#highlights">Highlights</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#amenities">Amenities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#master-floor-plan">Master &amp; Floor Plan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#download-brochure">Download Brochure</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#location-advantage">Location</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="#gallery">Gallery</a>
+            </li>
+        </ul> -->
+    </div>
+
+    <!-- <button class="navbar-toggler" type="button" >
+        <img src="images/icons/hamburgerIcon.png" alt="Hamburger Icon" class="img-fluid" />
+    </button> -->
+  </nav>
+  <!-- main section -->
+
+  <!-- overview section -->
+
+  <section style="margin-top: 100px">
+    <div class="container" style="margin: auto">
+      <h2 style="text-align: center; font-weight: bold; font-size: 2em">
+        Terms and Conditions
+      </h2>
+      <p>
+        By accessing or using this landing page, you acknowledge and agree to comply
+        with the following terms:
+      </p>
+
+      <h2><strong>Intellectual Property Rights</strong></h2>
+      <p>
+        All content—images, logos, texts, and other media—on this landing page is
+        owned by the developer or its licensors and is protected under intellectual
+        property laws. Any unauthorized reproduction, modification, or distribution
+        is strictly prohibited without prior written permission.
+      </p>
+
+      <h2><strong>Property Information Disclaimer</strong></h2>
+      <p>
+        Property details, pricing, availability, and other information provided here
+        are subject to change without notice. The real estate company does not guarantee
+        the accuracy or completeness of any information presented.
+      </p>
+
+      <h2><strong>User Responsibilities</strong></h2>
+      <p>
+        Users must provide accurate and up-to-date information when submitting
+        inquiries. Users also agree not to misuse the site, including hacking, spamming,
+        or distributing malware.
+      </p>
+
+      <h2><strong>Privacy and Data Handling</strong></h2>
+      <p>
+        User data is collected and used in accordance with applicable privacy laws.
+        The site may utilize third-party technologies (e.g., cookies, analytics tools)
+        to enhance functionality and gather usage insights.
+      </p>
+
+      <h2><strong>Disclaimer of Liability</strong></h2>
+      <p>
+        Under no circumstances shall the real estate company be liable for any damages
+        (financial or otherwise) resulting from the use of, or reliance on, the content
+        on this landing page.
+      </p>
+
+      <h2><strong>External Links</strong></h2>
+      <p>
+        Links to third-party websites are provided for convenience and do not imply
+        endorsement. The real estate company assumes no responsibility for their
+        content, practices, or availability.
+      </p>
+
+      <h2><strong>Modification of Terms</strong></h2>
+      <p>
+        These terms may be revised at any time without notice. Users are encouraged
+        to review this section periodically for updates.
+      </p>
+
+      <h2><strong>Governing Law and Jurisdiction</strong></h2>
+      <p>
+        Legal disputes arising from use of this landing page shall be governed by the
+        laws of the relevant jurisdiction and resolved within its courts.
+      </p>
+
+      <p>
+        <strong>Disclaimer:</strong> This is not the official developer’s website but a
+        marketing platform by an authorized channel partner. All details here are for
+        informational purposes only and do not constitute an offer or guarantee of any
+        services. Prices and availability are subject to change without notice.
+      </p>
+    </div>
+  </section>
+
+
+
+  <footer>
+    <div class="container">
+      <p>
+        <strong>Disclaimer</strong> We are an authorised marketing partner for this project. Provided content is given
+        by respective owners and this website and content is for information purpose only and it does not constitute any
+        offer to avail for any services. Prices mentioned are subject to change without prior notice and properties
+        mentioned are subject to availability. You can expect a call, SMS or emails on details registered with us.
+      </p>
+      <p class="mobile-p">
+        <b>Project RERA Number:</b> UPRERAAGT10202
+      </p>
+      <p>
+        <a href="privacy-policy.html"> Privacy Policy </a> |
+        <a href="terms-and-condition.html"> Terms & Conditions </a>
+        <!-- <a href="cookies-policy.html"> Cookies & Policy</a> -->
+      </p>
+      <!-- <p>
+        <img src="images/qr-code.jpg" style="width: 13%; margin-top: 10px" />
+      </p> -->
+    </div>
+    <a href="https://api.whatsapp.com/send/?phone=9560252011&text=&type=phone_number&app_absent=0"
+      class="whatsapp-widget d-flex justify-content-center d-none d-lg-block align-items-center" tarityped get="_blank">
+      <img src="images/whatsapp.png" alt="" />
+    </a>
+  </footer>
+
+  <!-- mobile-section -->
+
+  <div class="mobile-section d-none d_sm_flex">
+    <a href="tel:+91-9560252011" class="btn">
+      <span class="icon_bg">
+        <span class="img_bg"><img src="images/icons/call.svg" alt="icon" class="icon" /></span>
+      </span>
+      <b style="color: #fff"> Tap To Call</b>
+    </a>
+    <a href="https://api.whatsapp.com/send/?phone=9560252011&text=&type=phone_number&app_absent=0" class="btn">
+      <span class="icon_bg">
+        <span class="img_bg"><img src="images/icons/whatsapp.png" alt="icon" class="icon" /></span>
+      </span>
+      <b style="color: #fff"> Whats App</b>
+    </a>
+
+    <a href="javascript:void(0)" class="btn" title="Enquire Now" data-toggle="modal" data-target="#modal1">
+      <span class="icon_bg">
+        <span class="img_bg"><img src="images/icons/envelope.png" alt="icon" class="icon" /></span>
+      </span>
+      <b style="color: #fff"> Enquire Now</b>
+    </a>
+  </div>
+
+  <!-- modal -->
+
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h3 class="projectName">
+            <img src="images/logo.jpg" alt="project logo" class="img-fluid" />
+          </h3>
+          <h5 class="location">At Sector 3, Wave City, Ghaziabad</h5>
+
+          <h4 class="form_price">Starts At ₹ 2.43 Cr.*</h4>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            &times;
+          </button>
+
+          <form id="submitform1" action="mail.php" method="POST">
+            <div class="form-group mx-0">
+              <label for="name">Name*</label>
+              <input type="text" id="name" class="form-control" placeholder="Your Name*" name="name"
+                onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || event.charCode == 32)"
+                autocomplete="false" title="Enter Name" />
+              <div class="outline"></div>
+            </div>
+
+            <div class="form-group mx-0">
+              <label for="email">Email*</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter Your Email*" name="email"
+                required="" />
+              <div class="outline"></div>
+            </div>
+
+            <div class="form-group mx-0">
+              <label for="number">Mobile Number*</label>
+              <input id="phone" class="form-control" placeholder="Mobile No*" name="phone"
+                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57" />
+              <div class="outline"></div>
+            </div>
+            <div class="form-group mx-0">
+              <input type="hidden" value="Form" class="form-control" id="source" name="source" />
+              <div class="outline"></div>
+            </div>
+            <button type="submit" class="btn dark_btn submit_btn popup_form">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      if (window.matchMedia("(max-width: 600px)").matches) {
+        Array.from(document.getElementsByClassName("d_sm_none")).forEach(
+          function (item) {
+            item.parentNode.removeChild(item);
+          }
+        );
+      } else {
+        Array.from(document.getElementsByClassName("d_sm_block")).forEach(
+          function (item) {
+            item.parentNode.removeChild(item);
+          }
+        );
+      }
+    })();
+  </script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+
+  <script>
+    let navbarBackdrop = $('<div class="navbarBackdrop"></div>');
+    $(".navbar .navbar-toggler").on("click", function () {
+      $(".navbar .navbar-collapse").addClass("show");
+      $("body").addClass("overflow-hidden");
+      $(".navbar").append(navbarBackdrop);
+    });
+
+    $(".navbar .navbar-collapse .close").on("click", function () {
+      $(".navbar .navbar-collapse").removeClass("show");
+      $("body").removeClass("overflow-hidden");
+      $(navbarBackdrop).remove();
+    });
+
+    $(document).on("click", function (e) {
+      if ($(e.target).hasClass("navbarBackdrop")) {
+        $(e.target).remove();
+        $(".navbar .navbar-collapse").removeClass("show");
+        $("body").removeClass("overflow-hidden");
+      } else if ($(e.target).hasClass("nav-link")) {
+        $(navbarBackdrop).remove();
+        $(".navbar .navbar-collapse").removeClass("show");
+        $("body").removeClass("overflow-hidden");
+      }
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      let builderLogo = $(".images/logo.jpg");
+      $(window).scroll(function () {
+        if (window.matchMedia("(min-width: 700px)").matches) {
+          let scroll = $(window).scrollTop();
+          if (scroll >= 100) {
+            $(".navbar").addClass("fixed");
+            $(builderLogo).attr("src", "images/logo.jpg");
+          } else {
+            $(".navbar").removeClass("fixed");
+            $(builderLogo).attr("src", "images/logo.jpg");
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    // link-target
+    $(".nav-link-custom").on("click", function (e) {
+      var target = this.hash,
+        $target = $(target);
+
+      $("html, body")
+        .stop()
+        .animate(
+          {
+            scrollTop: $target.offset().top - 50,
+          },
+          800,
+          "swing",
+          function () {
+            window.location.hash = target;
+          }
+        );
+    });
+  </script>
+
+  <script type="text/javascript" language="javascript">
+    var versionUpdate = new Date().getTime();
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src =
+      "../api2.gtftech.com/scripts/queryform.min.sslec92.js?v=" +
+      versionUpdate;
+    document.body.appendChild(script);
+  </script>
+
+  <script>
+    $(".without-caption").magnificPopup({
+      type: "image",
+      closeOnContentClick: true,
+      closeBtnInside: false,
+      mainClass: "mfp-no-margins mfp-with-zoom", // class to remove default margin from left and right side
+      image: {
+        verticalFit: true,
+      },
+      zoom: {
+        enabled: true,
+        duration: 300, // don't foget to change the duration also in CSS
+      },
+    });
+
+    $(".with-caption").magnificPopup({
+      type: "image",
+      closeOnContentClick: true,
+      closeBtnInside: false,
+      mainClass: "mfp-with-zoom mfp-img-mobile",
+      image: {
+        verticalFit: true,
+        titleSrc: function (item) {
+          return (
+            item.el.attr("title") +
+            ' &middot; <a class="image-source-link" href="' +
+            item.el.attr("data-source") +
+            '" target="_blank"></a>'
+          );
+        },
+      },
+      zoom: {
+        enabled: true,
+      },
+    });
+  </script>
+  <script>
+    function getIP(json) {
+      var ip = json.ip;
+
+      document.getElementById("ip").value = ip;
+    }
+
+    const searchParams = new URLSearchParams(window.location.search);
+    const utm_source = searchParams.get("source");
+    const utm_term = searchParams.get("keyword");
+    const utm_medium = searchParams.get("creative");
+    const utm_campaignID = searchParams.get("campaignid");
+    const gclid = searchParams.get("gclid");
+  </script>
+  <script>
+    jQuery(window).on("load", function () {
+      setTimeout(function () {
+        jQuery("#modal1").modal("show");
+      }, 3000);
+    });
+  </script>
+
+  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</body>
+
+</html>
