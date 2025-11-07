@@ -1,1426 +1,2060 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
-  <title>
-    Gaur NYC Residence, Sector - 3, Wave City, Ghaziabad, Location, Reviews
-  </title>
-  <meta name="description" content="Gaur NYC Residence" />
-  <meta name="keywords" content="Gaur NYC Residence" />
-  <link rel="canonical" href="index.htm" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <style>
-    /* Enhanced Banner Styles */
-    .launch_badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: rgba(212, 175, 55, 0.2);
-      padding: 8px 20px;
-      border-radius: 50px;
-      margin-bottom: 20px;
-      border: 1px solid rgba(212, 175, 55, 0.4);
-      backdrop-filter: blur(10px);
-      animation: fadeInDown 0.8s ease-out;
-      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
-    }
-
-    .badge_dot {
-      width: 8px;
-      height: 8px;
-      background: #d4af37;
-      border-radius: 50%;
-      animation: pulse 2s infinite;
-      box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
-    }
-
-    @keyframes pulse {
-
-      0%,
-      100% {
-        opacity: 1;
-        transform: scale(1);
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <title>
+      Gaur NYC Residence, Sector - 3, Wave City, Ghaziabad, Location, Reviews
+    </title>
+    <meta name="description" content="Gaur NYC Residence" />
+    <meta name="keywords" content="Gaur NYC Residence" />
+    <link rel="canonical" href="index.htm" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      /* Enhanced Banner Styles */
+      .launch_badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(212, 175, 55, 0.2);
+        padding: 8px 20px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(212, 175, 55, 0.4);
+        backdrop-filter: blur(10px);
+        animation: fadeInDown 0.8s ease-out;
+        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
       }
 
-      50% {
-        opacity: 0.7;
-        transform: scale(1.2);
-      }
-    }
-
-    .launch_title {
-      margin: 0;
-      font-size: 14px;
-      letter-spacing: 3px;
-      font-weight: 600;
-      color: #d4af37;
-      text-transform: uppercase;
-      text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
-    }
-
-    .section-title {
-      font-size: 56px;
-      font-weight: 700;
-      line-height: 1.2;
-      margin: 15px 0 25px;
-      color: #fff;
-      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3),
-        0 0 20px rgba(212, 175, 55, 0.3);
-      animation: fadeInUp 0.8s ease-out 0.2s both;
-    }
-
-    .title_accent {
-      color: #ffd700;
-      display: inline-block;
-      position: relative;
-      text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
-    }
-
-    .title_accent::after {
-      content: "";
-      position: absolute;
-      bottom: 5px;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background: linear-gradient(90deg, #ffd700, #d4af37, transparent);
-      opacity: 0.8;
-      box-shadow: 0 2px 8px rgba(255, 215, 0, 0.5);
-    }
-
-    .feature_tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin: 25px 0;
-      animation: fadeInUp 0.8s ease-out 0.4s both;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 10px 20px;
-      background: rgba(212, 175, 55, 0.25);
-      border: 1px solid rgba(212, 175, 55, 0.5);
-      border-radius: 30px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #fff;
-      letter-spacing: 0.5px;
-      backdrop-filter: blur(5px);
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 10px rgba(212, 175, 55, 0.2);
-    }
-
-    .tag:hover {
-      background: rgba(212, 175, 55, 0.4);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(212, 175, 55, 0.5);
-      border-color: rgba(255, 215, 0, 0.8);
-    }
-
-    .tag_luxury {
-      background: linear-gradient(135deg,
-          rgba(212, 175, 55, 0.3),
-          rgba(184, 148, 31, 0.2));
-    }
-
-    .tag_possession {
-      background: linear-gradient(135deg,
-          rgba(255, 255, 255, 0.15),
-          rgba(255, 255, 255, 0.05));
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-
-    .tag_township {
-      background: linear-gradient(135deg,
-          rgba(212, 175, 55, 0.25),
-          rgba(244, 208, 63, 0.15));
-    }
-
-    .st_price {
-      position: relative;
-      padding: 25px 40px;
-      background: linear-gradient(135deg,
-          rgba(0, 0, 0, 0.85),
-          rgba(0, 0, 0, 0.65));
-      border-radius: 15px;
-      margin: 35px 0;
-      backdrop-filter: blur(10px);
-      border: 2px solid rgba(212, 175, 55, 0.5);
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3),
-        0 0 30px rgba(212, 175, 55, 0.2);
-      animation: fadeInUp 0.8s ease-out 0.6s both;
-    }
-
-    .price_content {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .price_line {
-      font-size: 14px;
-      letter-spacing: 4px;
-      opacity: 0.9;
-      font-weight: 500;
-    }
-
-    .amount {
-      display: flex;
-      align-items: baseline;
-      gap: 5px;
-    }
-
-    .amount_main {
-      font-size: 52px;
-      font-weight: 700;
-      color: #ffd700;
-      line-height: 1;
-      text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
-    }
-
-    .amount_unit {
-      font-size: 28px;
-      font-weight: 600;
-      color: #fff;
-      margin-left: 5px;
-    }
-
-    .star {
-      font-size: 20px;
-      color: #ffd700;
-      vertical-align: super;
-      text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
-    }
-
-    .banner_offers_wrapper {
-      margin-top: 40px;
-      animation: fadeInUp 0.8s ease-out 0.8s both;
-    }
-
-    .banner_offers {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      background: linear-gradient(135deg,
-          rgba(0, 0, 0, 0.7) 0%,
-          rgba(20, 30, 40, 0.8) 100%);
-      padding: 30px;
-      border-radius: 20px;
-      backdrop-filter: blur(15px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-
-    .offer_item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 12px;
-      padding: 25px 20px;
-      background: linear-gradient(135deg,
-          rgba(255, 255, 255, 0.08) 0%,
-          rgba(255, 255, 255, 0.03) 100%);
-      border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-    }
-
-    .offer_item::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(135deg,
-          rgba(212, 175, 55, 0.15) 0%,
-          rgba(212, 175, 55, 0.08) 100%);
-      opacity: 0;
-      transition: opacity 0.4s ease;
-    }
-
-    .offer_item::after {
-      content: "";
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle,
-          rgba(255, 215, 0, 0.2) 0%,
-          transparent 70%);
-      opacity: 0;
-      transition: opacity 0.4s ease;
-    }
-
-    .offer_item:hover::before {
-      opacity: 1;
-    }
-
-    .offer_item:hover::after {
-      opacity: 1;
-    }
-
-    .offer_item:hover {
-      background: linear-gradient(135deg,
-          rgba(212, 175, 55, 0.25) 0%,
-          rgba(184, 148, 31, 0.15) 100%);
-      border-color: rgba(255, 215, 0, 0.7);
-      transform: translateY(-5px) scale(1.02);
-      box-shadow: 0 12px 40px rgba(212, 175, 55, 0.4),
-        0 0 25px rgba(255, 215, 0, 0.3);
-    }
-
-    .offer_icon {
-      width: 56px;
-      height: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg,
-          rgba(212, 175, 55, 0.3) 0%,
-          rgba(184, 148, 31, 0.2) 100%);
-      border-radius: 14px;
-      flex-shrink: 0;
-      position: relative;
-      z-index: 1;
-      border: 1px solid rgba(212, 175, 55, 0.4);
-      transition: all 0.4s ease;
-      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
-    }
-
-    .offer_icon svg {
-      width: 28px;
-      height: 28px;
-      color: #fff;
-      opacity: 0.9;
-      transition: all 0.4s ease;
-    }
-
-    .offer_icon img {
-      width: 28px;
-      height: 28px;
-      object-fit: contain;
-      filter: brightness(0) invert(1);
-      opacity: 0.9;
-    }
-
-    .offer_item:hover .offer_icon {
-      background: linear-gradient(135deg,
-          rgba(255, 215, 0, 0.5) 0%,
-          rgba(212, 175, 55, 0.35) 100%);
-      border-color: rgba(255, 215, 0, 0.8);
-      transform: scale(1.1) rotate(5deg);
-      box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5);
-    }
-
-    .offer_item:hover .offer_icon svg {
-      opacity: 1;
-      color: #fff;
-      filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9));
-    }
-
-    .offer_item:hover .offer_icon img {
-      opacity: 1;
-      filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 215, 0, 0.9));
-    }
-
-    .offer_item .cont {
-      flex: 1;
-      position: relative;
-      z-index: 1;
-      width: 100%;
-    }
-
-    .offer_item .right {
-      font-size: 12px;
-      font-weight: 700;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 1.2px;
-      display: block;
-      line-height: 1.4;
-    }
-
-    .offer_item .right small {
-      display: block;
-      font-size: 13px;
-      font-weight: 500;
-      color: rgba(255, 255, 255, 0.85);
-      text-transform: none;
-      margin-top: 6px;
-      letter-spacing: 0.3px;
-      line-height: 1.5;
-    }
-
-    .form_header {
-      text-align: center;
-      margin-bottom: 30px;
-      position: relative;
-    }
-
-    .form_header .title {
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 8px;
-      color: #fff;
-    }
-
-    .title_sub {
-      display: block;
-      font-size: 12px;
-      letter-spacing: 3px;
-      color: #ffd700;
-      text-transform: uppercase;
-      font-weight: 600;
-      margin-bottom: 15px;
-      text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-    }
-
-    .form_badge {
-      display: inline-block;
-      padding: 6px 15px;
-      background: linear-gradient(135deg, #ffd700, #d4af37);
-      color: #000;
-      font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 1.5px;
-      border-radius: 20px;
-      text-transform: uppercase;
-      box-shadow: 0 3px 15px rgba(255, 215, 0, 0.6);
-      animation: pulse 2s infinite;
-    }
-
-    .submit_btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      transition: all 0.3s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .submit_btn::before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 0;
-      height: 0;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.2);
-      transform: translate(-50%, -50%);
-      transition: width 0.6s, height 0.6s;
-    }
-
-    .submit_btn:hover::before {
-      width: 300px;
-      height: 300px;
-    }
-
-    .submit_btn svg {
-      transition: transform 0.3s ease;
-      position: relative;
-      z-index: 1;
-    }
-
-    .submit_btn:hover svg {
-      transform: translateX(5px);
-    }
-
-    .submit_btn span {
-      position: relative;
-      z-index: 1;
-    }
-
-    .form_footer {
-      margin-top: 15px;
-      font-size: 11px;
-      color: rgba(255, 255, 255, 0.6);
-      text-align: center;
-      letter-spacing: 0.5px;
-    }
-
-    @keyframes fadeInDown {
-      from {
-        opacity: 0;
-        transform: translateY(-20px);
+      .badge_dot {
+        width: 8px;
+        height: 8px;
+        background: #d4af37;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+        box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
       }
 
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
 
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
+        50% {
+          opacity: 0.7;
+          transform: scale(1.2);
+        }
       }
 
-      to {
-        opacity: 1;
-        transform: translateY(0);
+      .launch_title {
+        margin: 0;
+        font-size: 14px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #d4af37;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
       }
-    }
 
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
       .section-title {
-        font-size: 36px;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 15px 0 25px;
+        color: #fff;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3),
+          0 0 20px rgba(212, 175, 55, 0.3);
+        animation: fadeInUp 0.8s ease-out 0.2s both;
       }
 
-      .banner_offers {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        padding: 25px 20px;
+      .title_accent {
+        color: #ffd700;
+        display: inline-block;
+        position: relative;
+        text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
       }
 
-      .offer_item {
-        padding: 20px 15px;
-      }
-
-      .offer_icon {
-        width: 50px;
-        height: 50px;
-      }
-
-      .offer_icon svg {
-        width: 24px;
-        height: 24px;
-      }
-
-      .st_price {
-        padding: 20px 25px;
-      }
-
-      .amount_main {
-        font-size: 40px;
+      .title_accent::after {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg, #ffd700, #d4af37, transparent);
+        opacity: 0.8;
+        box-shadow: 0 2px 8px rgba(255, 215, 0, 0.5);
       }
 
       .feature_tags {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 25px 0;
+        animation: fadeInUp 0.8s ease-out 0.4s both;
       }
 
       .tag {
-        width: 100%;
-        text-align: center;
+        display: inline-block;
+        padding: 10px 20px;
+        background: rgba(212, 175, 55, 0.25);
+        border: 1px solid rgba(212, 175, 55, 0.5);
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 0.5px;
+        backdrop-filter: blur(5px);
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 10px rgba(212, 175, 55, 0.2);
       }
-    }
 
-    @media (max-width: 576px) {
+      .tag:hover {
+        background: rgba(212, 175, 55, 0.4);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(212, 175, 55, 0.5);
+        border-color: rgba(255, 215, 0, 0.8);
+      }
+
+      .tag_luxury {
+        background: linear-gradient(
+          135deg,
+          rgba(212, 175, 55, 0.3),
+          rgba(184, 148, 31, 0.2)
+        );
+      }
+
+      .tag_possession {
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.15),
+          rgba(255, 255, 255, 0.05)
+        );
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+
+      .tag_township {
+        background: linear-gradient(
+          135deg,
+          rgba(212, 175, 55, 0.25),
+          rgba(244, 208, 63, 0.15)
+        );
+      }
+
+      .st_price {
+        position: relative;
+        padding: 25px 40px;
+        background: linear-gradient(
+          135deg,
+          rgba(0, 0, 0, 0.85),
+          rgba(0, 0, 0, 0.65)
+        );
+        border-radius: 15px;
+        margin: 35px 0;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(212, 175, 55, 0.5);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3),
+          0 0 30px rgba(212, 175, 55, 0.2);
+        animation: fadeInUp 0.8s ease-out 0.6s both;
+      }
+
+      .price_content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .price_line {
+        font-size: 14px;
+        letter-spacing: 4px;
+        opacity: 0.9;
+        font-weight: 500;
+      }
+
+      .amount {
+        display: flex;
+        align-items: baseline;
+        gap: 5px;
+      }
+
+      .amount_main {
+        font-size: 52px;
+        font-weight: 700;
+        color: #ffd700;
+        line-height: 1;
+        text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+      }
+
+      .amount_unit {
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+        margin-left: 5px;
+      }
+
+      .star {
+        font-size: 20px;
+        color: #ffd700;
+        vertical-align: super;
+        text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+      }
+
+      .banner_offers_wrapper {
+        margin-top: 40px;
+        animation: fadeInUp 0.8s ease-out 0.8s both;
+      }
+
       .banner_offers {
-        grid-template-columns: 1fr;
-        gap: 12px;
-        padding: 20px 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        background: linear-gradient(
+          135deg,
+          rgba(0, 0, 0, 0.7) 0%,
+          rgba(20, 30, 40, 0.8) 100%
+        );
+        padding: 30px;
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
       }
 
       .offer_item {
-        padding: 18px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+        padding: 25px 20px;
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.08) 0%,
+          rgba(255, 255, 255, 0.03) 100%
+        );
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+      .offer_item::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          135deg,
+          rgba(212, 175, 55, 0.15) 0%,
+          rgba(212, 175, 55, 0.08) 100%
+        );
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+
+      .offer_item::after {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(
+          circle,
+          rgba(255, 215, 0, 0.2) 0%,
+          transparent 70%
+        );
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+
+      .offer_item:hover::before {
+        opacity: 1;
+      }
+
+      .offer_item:hover::after {
+        opacity: 1;
+      }
+
+      .offer_item:hover {
+        background: linear-gradient(
+          135deg,
+          rgba(212, 175, 55, 0.25) 0%,
+          rgba(184, 148, 31, 0.15) 100%
+        );
+        border-color: rgba(255, 215, 0, 0.7);
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 12px 40px rgba(212, 175, 55, 0.4),
+          0 0 25px rgba(255, 215, 0, 0.3);
       }
 
       .offer_icon {
-        width: 48px;
-        height: 48px;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+          135deg,
+          rgba(212, 175, 55, 0.3) 0%,
+          rgba(184, 148, 31, 0.2) 100%
+        );
+        border-radius: 14px;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 1;
+        border: 1px solid rgba(212, 175, 55, 0.4);
+        transition: all 0.4s ease;
+        box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
       }
 
       .offer_icon svg {
-        width: 22px;
-        height: 22px;
+        width: 28px;
+        height: 28px;
+        color: #fff;
+        opacity: 0.9;
+        transition: all 0.4s ease;
+      }
+
+      .offer_icon img {
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+        filter: brightness(0) invert(1);
+        opacity: 0.9;
+      }
+
+      .offer_item:hover .offer_icon {
+        background: linear-gradient(
+          135deg,
+          rgba(255, 215, 0, 0.5) 0%,
+          rgba(212, 175, 55, 0.35) 100%
+        );
+        border-color: rgba(255, 215, 0, 0.8);
+        transform: scale(1.1) rotate(5deg);
+        box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5);
+      }
+
+      .offer_item:hover .offer_icon svg {
+        opacity: 1;
+        color: #fff;
+        filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9));
+      }
+
+      .offer_item:hover .offer_icon img {
+        opacity: 1;
+        filter: brightness(0) invert(1)
+          drop-shadow(0 0 10px rgba(255, 215, 0, 0.9));
+      }
+
+      .offer_item .cont {
+        flex: 1;
+        position: relative;
+        z-index: 1;
+        width: 100%;
       }
 
       .offer_item .right {
-        font-size: 11px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        display: block;
+        line-height: 1.4;
       }
 
       .offer_item .right small {
-        font-size: 12px;
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.85);
+        text-transform: none;
+        margin-top: 6px;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
       }
 
-      .section-title {
+      .form_header {
+        text-align: center;
+        margin-bottom: 30px;
+        position: relative;
+      }
+
+      .form_header .title {
         font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #fff;
       }
-    }
-  </style>
-</head>
 
-<body>
-  <!-- header -->
+      .title_sub {
+        display: block;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: #ffd700;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+      }
 
-  <nav class="navbar">
-    <a class="navbar-brand" href="/">
-      <img src="images/green-saphirre-logo-01.svg" alt="Builder Logo" class="img-fluid d_sm_none builder_logo" />
-      <img src="images/green-saphirre-logo-01.svg" alt="Builder Logo" class="img-fluid d-none d_sm_block" />
-    </a>
+      .form_badge {
+        display: inline-block;
+        padding: 6px 15px;
+        background: linear-gradient(135deg, #ffd700, #d4af37);
+        color: #000;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        box-shadow: 0 3px 15px rgba(255, 215, 0, 0.6);
+        animation: pulse 2s infinite;
+      }
 
-    <!-- another mobile number on bottom -->
+      .submit_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
 
-    <a class="btn btn_dark_fill icon_btn round call_btn d_sm_none" href="tel:919560252011"><span class="icon"><img
-          src="images/icons/call.png" alt="call icon" class="img-fluid" /></span>
-      <div class="right">
-        <span class="txt">Give us a call</span>
-        <span class="num blinker">+91-9560252011</span>
-      </div>
-    </a>
+      .submit_btn::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.2);
+        transform: translate(-50%, -50%);
+        transition: width 0.6s, height 0.6s;
+      }
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="top">
-        <img src="images/green-saphirre-logo-01.svg" alt="Developer Logo" class="img-fluid logo" />
-        <div class="close">×</div>
-      </div>
+      .submit_btn:hover::before {
+        width: 300px;
+        height: 300px;
+      }
 
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#overview">Overview</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#price-list">Price List</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#highlights">Highlights</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#amenities">Amenities</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#master-floor-plan">Master &amp; Floor Plan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#download-brochure">Download Brochure</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#location-advantage">Location</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-custom" href="#gallery">Gallery</a>
-        </li>
-      </ul>
-    </div>
+      .submit_btn svg {
+        transition: transform 0.3s ease;
+        position: relative;
+        z-index: 1;
+      }
 
-    <button class="navbar-toggler" type="button">
-      <img src="images/icons/hamburgerIcon.png" alt="Hamburger Icon" class="img-fluid" />
-    </button>
-  </nav>
-  <!-- main section -->
+      .submit_btn:hover svg {
+        transform: translateX(5px);
+      }
 
-  <section class="banner_section" id="home">
-    <div id="bannerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#bannerCarousel" data-slide-to="0" class="active">
-          <div class="round">1</div>
-        </li>
-        <li data-target="#bannerCarousel" data-slide-to="1">
-          <div class="round">2</div>
-        </li>
-        <li data-target="#bannerCarousel" data-slide-to="2">
-          <div class="round">3</div>
-        </li>
-      </ol>
+      .submit_btn span {
+        position: relative;
+        z-index: 1;
+      }
 
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/gallery-img/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel.jpg" class="w-100 d_sm_none" alt="Banner Image" />
-          <img src="images/gallery-img/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel.jpg" class="w-100 d-none d_sm_block" alt="Banner Image" />
+      .form_footer {
+        margin-top: 15px;
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        letter-spacing: 0.5px;
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .section-title {
+          font-size: 36px;
+        }
+
+        .banner_offers {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+          padding: 25px 20px;
+        }
+
+        .offer_item {
+          padding: 20px 15px;
+        }
+
+        .offer_icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        .offer_icon svg {
+          width: 24px;
+          height: 24px;
+        }
+
+        .st_price {
+          padding: 20px 25px;
+        }
+
+        .amount_main {
+          font-size: 40px;
+        }
+
+        .feature_tags {
+          flex-direction: column;
+        }
+
+        .tag {
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .banner_offers {
+          grid-template-columns: 1fr;
+          gap: 12px;
+          padding: 20px 15px;
+        }
+
+        .offer_item {
+          padding: 18px 15px;
+        }
+
+        .offer_icon {
+          width: 48px;
+          height: 48px;
+        }
+
+        .offer_icon svg {
+          width: 22px;
+          height: 22px;
+        }
+
+        .offer_item .right {
+          font-size: 11px;
+        }
+
+        .offer_item .right small {
+          font-size: 12px;
+        }
+
+        .section-title {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header -->
+
+    <nav class="navbar">
+      <a class="navbar-brand" href="/">
+        <img
+          src="images/green-saphirre-logo-01.svg"
+          alt="Builder Logo"
+          class="img-fluid d_sm_none builder_logo"
+        />
+        <img
+          src="images/green-saphirre-logo-01.svg"
+          alt="Builder Logo"
+          class="img-fluid d-none d_sm_block"
+        />
+      </a>
+
+      <!-- another mobile number on bottom -->
+
+      <a
+        class="btn btn_dark_fill icon_btn round call_btn d_sm_none"
+        href="tel:919560252011"
+        ><span class="icon"
+          ><img src="images/icons/call.png" alt="call icon" class="img-fluid"
+        /></span>
+        <div class="right">
+          <span class="txt">Give us a call</span>
+          <span class="num blinker">+91-9560252011</span>
         </div>
-        <div class="carousel-item">
-          <img src="images/banners/slider-jpg" class="w-100 d_sm_none" alt="Banner Image" />
-          <img src="images/banners/slider-2.jpg" class="w-100 d-none d_sm_block" alt="Banner Image" />
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="top">
+          <img
+            src="images/green-saphirre-logo-01.svg"
+            alt="Developer Logo"
+            class="img-fluid logo"
+          />
+          <div class="close">×</div>
         </div>
-        <div class="carousel-item">
-          <img src="images/banners/slider-3.jpg" class="w-100 d_sm_none" alt="Banner Image" />
-          <img src="images/banners/slider-3.jpg" class="w-100 d-none d_sm_block" alt="Banner Image" />
-        </div>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#overview">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#price-list"
+              >Price List</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#highlights"
+              >Highlights</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#amenities">Amenities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#master-floor-plan"
+              >Master &amp; Floor Plan</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#download-brochure"
+              >Download Brochure</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#location-advantage"
+              >Location</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#gallery">Gallery</a>
+          </li>
+        </ul>
       </div>
 
-      <div class="banner_main_contents">
-        <div class="container">
-          <div class="banner-contents">
-            <div class="row w-100 w_sm_auto">
-              <div class="col-12 col-md-8 left_col">
-                <div class="contents">
-                  <div class="head_line">
-                    <!-- <div class="launch_badge">
+      <button class="navbar-toggler" type="button">
+        <img
+          src="images/icons/hamburgerIcon.png"
+          alt="Hamburger Icon"
+          class="img-fluid"
+        />
+      </button>
+    </nav>
+    <!-- main section -->
+
+    <section class="banner_section" id="home">
+      <div
+        id="bannerCarousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#bannerCarousel" data-slide-to="0" class="active">
+            <div class="round">1</div>
+          </li>
+          <li data-target="#bannerCarousel" data-slide-to="1">
+            <div class="round">2</div>
+          </li>
+          <li data-target="#bannerCarousel" data-slide-to="2">
+            <div class="round">3</div>
+          </li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/gallery-img/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel.jpg"
+              class="w-100 d_sm_none"
+              alt="Banner Image"
+            />
+            <img
+              src="images/gallery-img/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel.jpg"
+              class="w-100 d-none d_sm_block"
+              alt="Banner Image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/banners/slider-jpg"
+              class="w-100 d_sm_none"
+              alt="Banner Image"
+            />
+            <img
+              src="images/banners/slider-2.jpg"
+              class="w-100 d-none d_sm_block"
+              alt="Banner Image"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/banners/slider-3.jpg"
+              class="w-100 d_sm_none"
+              alt="Banner Image"
+            />
+            <img
+              src="images/banners/slider-3.jpg"
+              class="w-100 d-none d_sm_block"
+              alt="Banner Image"
+            />
+          </div>
+        </div>
+
+        <div class="banner_main_contents">
+          <div class="container">
+            <div class="banner-contents">
+              <div class="row w-100 w_sm_auto">
+                <div class="col-12 col-md-8 left_col">
+                  <div class="contents">
+                    <div class="head_line">
+                      <!-- <div class="launch_badge">
                         <span class="badge_dot"></span>
                         <h3 class="launch_title">NEW LAUNCH</h3>
                       </div> -->
-                    <h2 class="section-title">
-                      The Green Sapphire<br />
-                      <span class="title_accent">Residences</span>
-                    </h2>
-                    <div class="feature_tags">
-                      <span class="tag tag_luxury">Luxury 1,2 BHK Apartments</span>
-                      <span class="tag tag_possession">Possession by Dec 2028</span>
-                      <span class="tag tag_township">11.8 Acres • 1,216 Units</span>
-                    </div>
-                  </div>
-
-                  <div class="location">
-                    <img src="images/icons/location1.png" alt="location-icon" class="location_icon" />
-                    <p>Kalyan(W), Bhiwandi, Maharashtra 421302 <span></span></p>
-                  </div>
-
-                  <div class="st_price">
-                    <span class="rupee_symbol">₹</span>
-                    <div class="price_content">
-                      <span class="price_line">Starting At</span>
-                      <span class="amount">
-                        <span class="amount_main">27.9</span>
-                        <span class="amount_unit">Lakhs.</span>
-                        <span class="star">*</span>
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="btns_row d-none d_sm_block">
-                    <a class="btn btn_dark_fill icon_btn round call_btn" href="tel:+919560252011">
-                      <span class="icon">
-                        <img src="images/icons/call.png" alt="call icon" class="img-fluid" />
-                      </span>
-                      <div class="right">
-                        <span class="txt">Give us a call</span>
-                        <span class="num blinker">+91-9560252011</span>
+                      <h2 class="section-title">
+                        The Green Sapphire<br />
+                        <span class="title_accent">Residences</span>
+                      </h2>
+                      <div class="feature_tags">
+                        <span class="tag tag_luxury"
+                          >Luxury 1,2 BHK Apartments</span
+                        >
+                        <span class="tag tag_possession"
+                          >Possession by Dec 2028</span
+                        >
+                        <span class="tag tag_township"
+                          >11.8 Acres • 1,216 Units</span
+                        >
                       </div>
-                    </a>
-                  </div>
+                    </div>
 
-                  <div class="banner_offers_wrapper">
-                    <ul class="banner_offers">
-                      <li class="offer_item">
-                        <div class="offer_icon">
-                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 21H21M5 21V7L12 3L19 7V21M9 9V21M15 9V21" stroke="currentColor" stroke-width="2"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
+                    <div class="location">
+                      <img
+                        src="images/icons/location1.png"
+                        alt="location-icon"
+                        class="location_icon"
+                      />
+                      <p>
+                        Kalyan(W), Bhiwandi, Maharashtra 421302 <span></span>
+                      </p>
+                    </div>
+
+                    <div class="st_price">
+                      <span class="rupee_symbol">₹</span>
+                      <div class="price_content">
+                        <span class="price_line">Starting At</span>
+                        <span class="amount">
+                          <span class="amount_main">27.9</span>
+                          <span class="amount_unit">Lakhs.</span>
+                          <span class="star">*</span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="btns_row d-none d_sm_block">
+                      <a
+                        class="btn btn_dark_fill icon_btn round call_btn"
+                        href="tel:+919560252011"
+                      >
+                        <span class="icon">
+                          <img
+                            src="images/icons/call.png"
+                            alt="call icon"
+                            class="img-fluid"
+                          />
+                        </span>
+                        <div class="right">
+                          <span class="txt">Give us a call</span>
+                          <span class="num blinker">+91-9560252011</span>
                         </div>
-                        <div class="cont">
-                          <span class="right">New <small>Launch</small></span>
-                        </div>
-                      </li>
-                      <li class="offer_item">
-                        <div class="offer_icon">
-                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" />
-                            <path d="M16 2V6M8 2V6M3 10H21" stroke="currentColor" stroke-width="2"
-                              stroke-linecap="round" />
-                          </svg>
-                        </div>
-                        <div class="cont">
-                          <span class="right">Possession <small>Dec 2028*</small></span>
-                        </div>
-                      </li>
-                      <li class="offer_item">
-                        <div class="offer_icon">
-                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z"
-                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M9 22V12H15V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                          </svg>
-                        </div>
-                        <div class="cont">
-                          <span class="right">Property Type <small>Luxury 1,2 BHK</small></span>
-                        </div>
-                      </li>
-                      <li class="offer_item">
-                        <div class="offer_icon">
-                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" />
-                            <path d="M3 9H21M9 3V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                          </svg>
-                        </div>
-                        <div class="cont">
-                          <span class="right">Total Area <small>~11.8 Acres</small></span>
-                        </div>
-                      </li>
-                      <li class="offer_item">
-                        <div class="offer_icon">
-                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                          </svg>
-                        </div>
-                        <div class="cont">
-                          <span class="right">Developer <small>Gaurs Group</small></span>
-                        </div>
-                      </li>
-                      <li class="offer_item">
-                        <div class="offer_icon">
-                          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
-                              stroke="currentColor" stroke-width="2" />
-                            <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" />
-                          </svg>
-                        </div>
-                        <div class="cont">
-                          <span class="right">Location <small>Kalyan(W), Bhiwandi, Maharashtra 421302</small></span>
-                        </div>
-                      </li>
-                    </ul>
+                      </a>
+                    </div>
+
+                    <div class="banner_offers_wrapper">
+                      <ul class="banner_offers">
+                        <li class="offer_item">
+                          <div class="offer_icon">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M3 21H21M5 21V7L12 3L19 7V21M9 9V21M15 9V21"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="cont">
+                            <span class="right">New <small>Launch</small></span>
+                          </div>
+                        </li>
+                        <li class="offer_item">
+                          <div class="offer_icon">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <rect
+                                x="3"
+                                y="4"
+                                width="18"
+                                height="18"
+                                rx="2"
+                                stroke="currentColor"
+                                stroke-width="2"
+                              />
+                              <path
+                                d="M16 2V6M8 2V6M3 10H21"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="cont">
+                            <span class="right"
+                              >Possession <small>Dec 2028*</small></span
+                            >
+                          </div>
+                        </li>
+                        <li class="offer_item">
+                          <div class="offer_icon">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M9 22V12H15V22"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="cont">
+                            <span class="right"
+                              >Property Type <small>Luxury 1,2 BHK</small></span
+                            >
+                          </div>
+                        </li>
+                        <li class="offer_item">
+                          <div class="offer_icon">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <rect
+                                x="3"
+                                y="3"
+                                width="18"
+                                height="18"
+                                rx="2"
+                                stroke="currentColor"
+                                stroke-width="2"
+                              />
+                              <path
+                                d="M3 9H21M9 3V21"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="cont">
+                            <span class="right"
+                              >Total Area <small>~11.8 Acres</small></span
+                            >
+                          </div>
+                        </li>
+                        <li class="offer_item">
+                          <div class="offer_icon">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M12 2L2 7L12 12L22 7L12 2Z"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M2 17L12 22L22 17"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                              <path
+                                d="M2 12L12 17L22 12"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <div class="cont">
+                            <span class="right"
+                              >Developer <small>Gaurs Group</small></span
+                            >
+                          </div>
+                        </li>
+                        <li class="offer_item">
+                          <div class="offer_icon">
+                            <svg
+                              width="28"
+                              height="28"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                                stroke="currentColor"
+                                stroke-width="2"
+                              />
+                              <circle
+                                cx="12"
+                                cy="10"
+                                r="3"
+                                stroke="currentColor"
+                                stroke-width="2"
+                              />
+                            </svg>
+                          </div>
+                          <div class="cont">
+                            <span class="right"
+                              >Location
+                              <small
+                                >Kalyan(W), Bhiwandi, Maharashtra 421302</small
+                              ></span
+                            >
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
+                </div>
+
+                <div class="col-12 col-md-4 right_col">
+                  <form id="ContactForm" action="mail.php" method="POST">
+                    <div class="form an_form" autocomplete="off">
+                      <div class="form_header">
+                        <h4 class="title">Have a Question!</h4>
+                        <span class="title_sub">Enquire Now</span>
+                        <div class="form_badge">Limited Time Offer</div>
+                      </div>
+
+                      <input hidden="" type="text" autocomplete="false" />
+                      <div class="form-group mx-0">
+                        <label for="name">Name*</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Enter Your Name*"
+                          name="name"
+                          onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32)"
+                          required
+                        />
+                        <div class="outline"></div>
+                      </div>
+                      <div class="form-group mx-0">
+                        <label for="email">Email*</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Enter Your Email*"
+                          name="email"
+                          required
+                          minlength="3"
+                          maxlength="64"
+                        />
+                        <div class="outline"></div>
+                      </div>
+                      <div class="form-group mx-0">
+                        <label for="phone">Mobile Number*</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="phone"
+                          placeholder="Mobile No*"
+                          name="phone"
+                          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"
+                          required
+                        />
+                        <div class="outline"></div>
+                      </div>
+                      <div class="form-group mx-0">
+                        <input
+                          type="hidden"
+                          class="form-control"
+                          id="source"
+                          value="Enquiry Form"
+                          name="source"
+                        />
+                        <input type="hidden" name="brochure" value="0" />
+                        <input type="hidden" name="plans" value="0" />
+                      </div>
+                      <button
+                        type="submit"
+                        class="btn dark_btn submit_btn book_site_visit"
+                      >
+                        <span>Book A Site Visit</span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.5 15L12.5 10L7.5 5"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <p class="form_footer">
+                        *By submitting, you agree to our terms & conditions
+                      </p>
+                    </div>
+                  </form>
                 </div>
               </div>
 
-              <div class="col-12 col-md-4 right_col">
-                <form id="ContactForm" action="mail.php" method="POST">
-                  <div class="form an_form" autocomplete="off">
-                    <div class="form_header">
-                      <h4 class="title">Have a Question!</h4>
-                      <span class="title_sub">Enquire Now</span>
-                      <div class="form_badge">Limited Time Offer</div>
-                    </div>
-
-                    <input hidden="" type="text" autocomplete="false" />
-                    <div class="form-group mx-0">
-                      <label for="name">Name*</label>
-                      <input type="text" class="form-control" id="name" placeholder="Enter Your Name*" name="name"
-                        onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32)"
-                        required />
-                      <div class="outline"></div>
-                    </div>
-                    <div class="form-group mx-0">
-                      <label for="email">Email*</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter Your Email*" name="email"
-                        required minlength="3" maxlength="64" />
-                      <div class="outline"></div>
-                    </div>
-                    <div class="form-group mx-0">
-                      <label for="phone">Mobile Number*</label>
-                      <input type="text" class="form-control" id="phone" placeholder="Mobile No*" name="phone"
-                        onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" required />
-                      <div class="outline"></div>
-                    </div>
-                    <div class="form-group mx-0">
-                      <input type="hidden" class="form-control" id="source" value="Enquiry Form" name="source" />
-                      <input type="hidden" name="brochure" value="0" />
-                      <input type="hidden" name="plans" value="0" />
-                    </div>
-                    <button type="submit" class="btn dark_btn submit_btn book_site_visit">
-                      <span>Book A Site Visit</span>
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" />
-                      </svg>
-                    </button>
-                    <p class="form_footer">
-                      *By submitting, you agree to our terms & conditions
-                    </p>
-                  </div>
-                </form>
+              <div class="scroll_text d_sm_none">
+                <a href="#overview" class="nav-link-custom">
+                  <p>Scroll Down</p>
+                  <img
+                    src="images/icons/down-arrow.png"
+                    alt="arrow-down"
+                    class="img-fluid arrow_icon"
+                  />
+                </a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="scroll_text d_sm_none">
-              <a href="#overview" class="nav-link-custom">
-                <p>Scroll Down</p>
-                <img src="images/icons/down-arrow.png" alt="arrow-down" class="img-fluid arrow_icon" />
+    <!-- overview section -->
+
+    <div class="overview_section" id="overview">
+      <div class="container">
+        <div class="row mx_-30 mx_sm_-15">
+          <div class="col-12 col-md-6 px_30 px_sm_15 left_col">
+            <div class="contents">
+              <div class="ov_headings left sm_center">
+                <h5 class="sec_title">Overview</h5>
+                <h2>Redefining the Future of Green Luxury</h2>
+                <h1 class="section_heading">
+                  <span> Kalyan(W), Bhiwandi, Maharashtra 421302</span>
+                </h1>
+              </div>
+
+              <p>
+                The Green Sapphire redefines eco-luxury living with homes that
+                blend modern comfort and environmental harmony. Designed for
+                those who value style and sustainability, this premium
+                residential project offers elegant, energy-efficient homes
+                surrounded by lush green landscapes.
+                <br /><br />
+                With world-class amenities such as a clubhouse, infinity pool,
+                fitness zones, landscaped gardens, and children’s play areas,
+                The Green Sapphire promises a lifestyle of wellness and
+                sophistication.
+                <br /><br />
+                Located close to major schools, hospitals, and city hubs, it
+                offers both convenience and tranquility. The Green Sapphire is
+                more than a residence—it’s your sustainable sanctuary for a
+                modern, balanced life. Live green. Live luxurious. Live The
+                Green Sapphire.
+              </p>
+
+              <button
+                class="btn dark_btn download_btn"
+                data-toggle="modal"
+                data-target="#modal1"
+              >
+                Download Brochure
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 px_30 px_sm_15 right_col">
+            <div class="image_col">
+              <img
+                src="images/gallery/3d-rendering-loft-luxury-living-room-with-design-chandelier.jpg"
+                alt="Overview Image"
+                class="img-fluid d_sm_none"
+              />
+              <img
+                src="images/overview/about.jpg"
+                alt="Overview Image"
+                class="img-fluid d-none d_sm_block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- price section -->
+
+    <div class="price_section" id="price-list">
+      <div class="container">
+        <div class="ov_headings center">
+          <h5 class="sec_title text-white">Our Price</h5>
+        </div>
+
+        <div class="row price_row">
+          <!-- 4 BHK - 2210 sq. ft -->
+          <div class="col-md-4 price_col mb_sm_30">
+            <div class="single_price">
+              <p class="typology">2 BHK Residences</p>
+              <div class="price_c">
+                <h3 class="price">
+                  <sup>₹</sup>
+                  38.9 L*
+                </h3>
+                <small class="onw">Final Price</small>
+              </div>
+              <div class="content">
+                <div class="sizes">
+                  <small class="title">Size</small>
+                  <p>2210 Sq. ft.</p>
+                </div>
+
+                <div class="type">
+                  <small class="title">Type</small>
+                  <p>Luxury Residential Apartments</p>
+                </div>
+
+                <button
+                  class="call_btn btn dark_btn rounded"
+                  data-toggle="modal"
+                  data-target="#modal1"
+                >
+                  Request A Call
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 BHK - 2780 sq. ft -->
+          <div class="col-md-4 price_col mb_sm_30">
+            <div class="single_price">
+              <p class="typology">1 BHK Residences</p>
+              <div class="price_c">
+                <h3 class="price">
+                  <sup>₹</sup>
+                  27.9 L*
+                </h3>
+                <small class="onw">Final Price</small>
+              </div>
+              <div class="content">
+                <div class="sizes">
+                  <small class="title">Size</small>
+                  <p>2780 Sq. ft.</p>
+                </div>
+
+                <div class="type">
+                  <small class="title">Type</small>
+                  <p>Luxury Residential Apartments</p>
+                </div>
+
+                <button
+                  class="call_btn btn dark_btn rounded"
+                  data-toggle="modal"
+                  data-target="#modal1"
+                >
+                  Request A Call
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 BHK - 3365 sq. ft -->
+          <div class="col-md-4 price_col mb_sm_30">
+            <div class="single_price">
+              <p class="typology">4 BHK Residences</p>
+              <div class="price_c">
+                <h3 class="price">
+                  <sup>₹</sup>
+                  89 L*
+                </h3>
+                <small class="onw">Final Price</small>
+              </div>
+              <div class="content">
+                <div class="sizes">
+                  <small class="title">Size</small>
+                  <p>3365 Sq. ft.</p>
+                </div>
+
+                <div class="type">
+                  <small class="title">Type</small>
+                  <p>Luxury Residential Apartments</p>
+                </div>
+
+                <button
+                  class="call_btn btn dark_btn rounded"
+                  data-toggle="modal"
+                  data-target="#modal1"
+                >
+                  Request A Call
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- highlights section -->
+
+    <section class="highlight_section" id="highlights">
+      <div class="container">
+        <div class="ov_headings center d-none d_sm_block">
+          <h5 class="sec_title">Our Highlights</h5>
+          <h3 class="section_heading">Highlights</h3>
+        </div>
+
+        <div class="row mx_-30 mx_sm_-15">
+          <!-- Left Column -->
+          <div class="col-md-4 px_30 px_sm_15 left_col">
+            <ul>
+              <li>
+                <span class="count">01</span> Located in Khadakpada Annex,
+                Kalyan’s Prime Neighbourhood
+              </li>
+              <li>
+                <span class="count">02</span> Expansive Township Spread Across
+                Acres of Tranquility
+              </li>
+              <li>
+                <span class="count">03</span>Spacious 1, 2 & 3 BHK Residences
+              </li>
+              <li>
+                <span class="count">04</span> Lavish Clubhouse & 20+ Lifestyle
+                Amenities
+              </li>
+            </ul>
+          </div>
+
+          <!-- Center Column (Image + Heading) -->
+          <div class="col-md-4 px_30 px_sm_15 center_col d_sm_none">
+            <div class="image">
+              <img
+                src="images/gallery/beautiful-shot-modern-house-kitchen (1).jpg"
+                alt="highlights_img"
+                class="img-fluid"
+              />
+              <h3 class="section_heading text-white">Project Highlights</h3>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-4 px_30 px_sm_15 right_col">
+            <ul>
+              <li><span class="count">05</span> Superior Connectivity</li>
+              <li>
+                <span class="count">06</span> Quality Construction & Modern
+                Infrastructure
+              </li>
+              <li>
+                <span class="count">07</span>Perfect for Modern Family Living
+              </li>
+              <li>
+                <span class="count">08</span> Developed by The Green Sapphirre
+                Group
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- amenity section -->
+
+    <section class="amenity_section" id="amenities">
+      <div class="container">
+        <div class="row mx_-30 mx_sm_-15">
+          <div class="col-md-6 px_30 px_sm_15 left_col">
+            <img
+              src="images/gallery/realistic-modern-interior-design.jpg"
+              alt="Amenities Image"
+              class="img-fluid"
+            />
+          </div>
+
+          <div class="col-md-6 px_30 px_sm_15 right_col">
+            <div class="ov_headings left green sm_center">
+              <h5 class="sec_title text-white">Our Amenities</h5>
+            </div>
+
+            <div class="contents">
+              <div class="row mx_sm_-5">
+                <!-- New Amenities -->
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/string-trimmer_7514999.png"
+                        alt="Gym Icon"
+                      />
+                    </spna>
+                    <h4>MultiPurpose Lawn</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/chess_8709262.png"
+                        alt="Jogging Tracks Icon"
+                      />
+                    </spna>
+                    <h4>Indoor Game Area</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/community-building_18560702.png "
+                        alt="Community Hall Icon"
+                      />
+                    </spna>
+                    <h4>Society Office</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/wheel_3262043.png"
+                        alt="Community Hall Icon"
+                      />
+                    </spna>
+                    <h4>Drivers Room</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/water_15681999.png"
+                        alt="Children Play Icon"
+                      />
+                    </spna>
+                    <h4>24*7 Water Supply</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/gate_5434862.png"
+                        alt="Lift Icon"
+                      />
+                    </spna>
+                    <h4>My Gate For Every Buliding</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/building_13532546.png"
+                        alt="Garden Icon"
+                      />
+                    </spna>
+                    <h4>Lavish Clubhouse</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/playground_8242374.png"
+                        alt="Parking Icon"
+                      />
+                    </spna>
+                    <h4>Kids Play Area</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/cricket-bat_7981129.png"
+                        alt="Security Icon"
+                      />
+                    </spna>
+                    <h4>Cricket Turf</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/award_10568380.png"
+                        alt="CCTV Icon"
+                      />
+                    </spna>
+                    <h4>Superior Constructions</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img
+                        src="images/icons/toilet_2105159.png"
+                        alt="CCTV Icon"
+                      />
+                    </spna>
+                    <h4>Society Washroom</h4>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-4 px_sm_5">
+                  <div class="single">
+                    <spna class="icon">
+                      <img src="images/icons/lift.png" alt="Lift Icon" />
+                    </spna>
+                    <h4>Lifts</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Master & Floor plans -->
+
+    <section class="floor_plans_section" id="master-floor-plan">
+      <div class="container">
+        <div class="heading_row">
+          <div class="ov_headings center">
+            <h5 class="sec_title">Master & Floors Plans</h5>
+            <h3 class="section_heading">Good Design for Good Moments.</h3>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8 mb_sm_50">
+            <div class="single">
+              <a data-toggle="modal" data-target="#modal1">
+                <img
+                  src="images/plans/plans-blur.jpg"
+                  alt="Layout Floor plan"
+                  class="w-100"
+                />
+                <h3 class="title text-white">Master Plan</h3>
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- overview section -->
+    <!-- e-brochure section -->
 
-  <div class="overview_section" id="overview">
-    <div class="container">
-      <div class="row mx_-30 mx_sm_-15">
-        <div class="col-12 col-md-6 px_30 px_sm_15 left_col">
-          <div class="contents">
-            <div class="ov_headings left sm_center">
-              <h5 class="sec_title">Overview</h5>
-              <h2>Redefining the Future of Green Luxury</h2>
-              <h1 class="section_heading">
-                <span> Kalyan(W), Bhiwandi, Maharashtra 421302</span>
-              </h1>
-            </div>
-
-            <p>
-              The Green Sapphire redefines eco-luxury living with homes that
-              blend modern comfort and environmental harmony. Designed for
-              those who value style and sustainability, this premium
-              residential project offers elegant, energy-efficient homes
-              surrounded by lush green landscapes.
-              <br /><br />
-              With world-class amenities such as a clubhouse, infinity pool,
-              fitness zones, landscaped gardens, and children’s play areas,
-              The Green Sapphire promises a lifestyle of wellness and
-              sophistication.
-              <br /><br />
-              Located close to major schools, hospitals, and city hubs, it
-              offers both convenience and tranquility. The Green Sapphire is
-              more than a residence—it’s your sustainable sanctuary for a
-              modern, balanced life. Live green. Live luxurious. Live The
-              Green Sapphire.
-            </p>
-
-            <button class="btn dark_btn download_btn" data-toggle="modal" data-target="#modal1">
-              Download Brochure
-            </button>
+    <section class="e_brochure_section" id="download-brochure">
+      <div class="container">
+        <div class="row mx_-30 mx_sm_-15">
+          <div class="col-md-6 px_30 px_sm_15">
+            <img
+              src="images/gallery/bangkok-thailand-august-12-2016-beautiful-luxury-living-room-interior-decoration-hotel.jpg"
+              alt="Layout E-Brochure"
+              class="w-100"
+            />
           </div>
-        </div>
-        <div class="col-12 col-md-6 px_30 px_sm_15 right_col">
-          <div class="image_col">
-            <img src="images/gallery/3d-rendering-loft-luxury-living-room-with-design-chandelier.jpg"
-              alt="Overview Image" class="img-fluid d_sm_none" />
-            <img src="images/overview/about.jpg" alt="Overview Image" class="img-fluid d-none d_sm_block" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- price section -->
-
-  <div class="price_section" id="price-list">
-    <div class="container">
-      <div class="ov_headings center">
-        <h5 class="sec_title text-white">Our Price</h5>
-      </div>
-
-      <div class="row price_row">
-        <!-- 4 BHK - 2210 sq. ft -->
-        <div class="col-md-4 price_col mb_sm_30">
-          <div class="single_price">
-            <p class="typology">2 BHK Residences</p>
-            <div class="price_c">
-              <h3 class="price">
-                <sup>₹</sup>
-                38.9 L*
-              </h3>
-              <small class="onw">Final Price</small>
-            </div>
-            <div class="content">
-              <div class="sizes">
-                <small class="title">Size</small>
-                <p>2210 Sq. ft.</p>
+          <div class="col-md-6 px_30 px_sm_15 right_col">
+            <div class="contents">
+              <div class="ov_headings left sm_center">
+                <h5 class="sec_title">Brochure</h5>
+                <h3 class="section_heading">Download E-Brochure</h3>
               </div>
 
-              <div class="type">
-                <small class="title">Type</small>
-                <p>Luxury Residential Apartments</p>
-              </div>
-
-              <button class="call_btn btn dark_btn rounded" data-toggle="modal" data-target="#modal1">
-                Request A Call
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 4 BHK - 2780 sq. ft -->
-        <div class="col-md-4 price_col mb_sm_30">
-          <div class="single_price">
-            <p class="typology">1 BHK Residences</p>
-            <div class="price_c">
-              <h3 class="price">
-                <sup>₹</sup>
-                27.9 L*
-              </h3>
-              <small class="onw">Final Price</small>
-            </div>
-            <div class="content">
-              <div class="sizes">
-                <small class="title">Size</small>
-                <p>2780 Sq. ft.</p>
-              </div>
-
-              <div class="type">
-                <small class="title">Type</small>
-                <p>Luxury Residential Apartments</p>
-              </div>
-
-              <button class="call_btn btn dark_btn rounded" data-toggle="modal" data-target="#modal1">
-                Request A Call
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 4 BHK - 3365 sq. ft -->
-        <div class="col-md-4 price_col mb_sm_30">
-          <div class="single_price">
-            <p class="typology">4 BHK Residences</p>
-            <div class="price_c">
-              <h3 class="price">
-                <sup>₹</sup>
-                89 L*
-              </h3>
-              <small class="onw">Final Price</small>
-            </div>
-            <div class="content">
-              <div class="sizes">
-                <small class="title">Size</small>
-                <p>3365 Sq. ft.</p>
-              </div>
-
-              <div class="type">
-                <small class="title">Type</small>
-                <p>Luxury Residential Apartments</p>
-              </div>
-
-              <button class="call_btn btn dark_btn rounded" data-toggle="modal" data-target="#modal1">
-                Request A Call
+              <p>
+                Explore every detail of The Green Sapphirre – Khadakpada Annex’s
+                most elegant residential address. Our exclusive e-brochure
+                includes thoughtfully designed floor plans, premium amenities,
+                pricing details, and lifestyle highlights of this beautifully
+                planned green development. Pre-register today to get priority
+                updates, exclusive offers, and early access to booking
+                opportunities.
+              </p>
+              <button
+                class="btn dark_btn download_btn"
+                data-toggle="modal"
+                data-target="#modal1"
+              >
+                Request E-Brochure
               </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- highlights section -->
+    <!-- location advantage section -->
 
-  <section class="highlight_section" id="highlights">
-    <div class="container">
-      <div class="ov_headings center d-none d_sm_block">
-        <h5 class="sec_title">Our Highlights</h5>
-        <h3 class="section_heading">Highlights</h3>
-      </div>
-
-      <div class="row mx_-30 mx_sm_-15">
-        <!-- Left Column -->
-        <div class="col-md-4 px_30 px_sm_15 left_col">
-          <ul>
-            <li>
-              <span class="count">01</span> Located in Khadakpada Annex, Kalyan’s Prime Neighbourhood
-            </li>
-            <li>
-              <span class="count">02</span> Expansive Township Spread Across Acres of Tranquility
-            </li>
-            <li>
-              <span class="count">03</span>Spacious 1, 2 & 3 BHK Residences
-            </li>
-            <li>
-              <span class="count">04</span> Lavish Clubhouse & 20+ Lifestyle Amenities
-          </ul>
-        </div>
-
-        <!-- Center Column (Image + Heading) -->
-        <div class="col-md-4 px_30 px_sm_15 center_col d_sm_none">
-          <div class="image">
-            <img src="images/gallery/beautiful-shot-modern-house-kitchen (1).jpg" alt="highlights_img"
-              class="img-fluid" />
-            <h3 class="section_heading text-white">Project Highlights</h3>
+    <section class="location_section" id="location-advantage">
+      <div class="container">
+        <div class="row mx_-30 mx_sm_-15">
+          <div class="col-md-6 px_30 px_sm_15">
+            <div class="ov_headings left green sm_center">
+              <h5 class="sec_title text-white">Location Advantage</h5>
+              <h3 class="section_heading text-white">
+                The Comfort of Strategic Connectivity
+              </h3>
+            </div>
+            <ul class="points text-white">
+              <li>
+                <b
+                  >Seamless connectivity to Kalyan, Dombivli, Thane, and
+                  Mumbai</b
+                >
+              </li>
+              <li>
+                <b
+                  >Easy access to Kalyan-Shil Road, Alyani-Badlapur Highway, and
+                  NH-61</b
+                >
+              </li>
+              <li>
+                <b
+                  >Just 10 minutes from Kalyan Railway Station and upcoming
+                  Metro Line 5</b
+                >
+              </li>
+              <li>
+                <b
+                  >Surrounded by lush green landscapes and open spaces offering
+                  peaceful living</b
+                >
+              </li>
+              <li>
+                <b
+                  >Renowned schools, colleges, and hospitals like Podar
+                  International, Fortis, and Holy Cross within close reach</b
+                >
+              </li>
+              <li>
+                <b
+                  >Malls, restaurants, and entertainment hubs just a short drive
+                  away</b
+                >
+              </li>
+              <li>
+                <b
+                  >Located in Khadakpada Annex — one of Kalyan’s fastest-growing
+                  and most premium neighborhoods</b
+                >
+              </li>
+              <li>
+                <b
+                  >Well-planned infrastructure, wide roads, and a thriving
+                  residential community</b
+                >
+              </li>
+            </ul>
           </div>
-        </div>
-
-        <!-- Right Column -->
-        <div class="col-md-4 px_30 px_sm_15 right_col">
-          <ul>
-            <li>
-              <span class="count">05</span> Superior Connectivity
-            </li>
-            <li>
-              <span class="count">06</span> Quality Construction & Modern Infrastructure
-            </li>
-            <li><span class="count">07</span>Perfect for Modern Family Living</li>
-            <li><span class="count">08</span> Developed by The Green Sapphirre Group</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- amenity section -->
-
-  <section class="amenity_section" id="amenities">
-    <div class="container">
-      <div class="row mx_-30 mx_sm_-15">
-        <div class="col-md-6 px_30 px_sm_15 left_col">
-          <img src="images/gallery/realistic-modern-interior-design.jpg" alt="Amenities Image" class="img-fluid" />
-        </div>
-
-        <div class="col-md-6 px_30 px_sm_15 right_col">
-          <div class="ov_headings left green sm_center">
-            <h5 class="sec_title text-white">Our Amenities</h5>
-          </div>
-
-          <div class="contents">
-            <div class="row mx_sm_-5">
-              <!-- New Amenities -->
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/string-trimmer_7514999.png" alt="Gym Icon" />
-                  </spna>
-                  <h4>MultiPurpose Lawn</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/chess_8709262.png" alt="Jogging Tracks Icon" />
-                  </spna>
-                  <h4>Indoor Game Area</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/community-building_18560702.png " alt="Community Hall Icon" />
-                  </spna>
-                  <h4>Society Office</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/wheel_3262043.png" alt="Community Hall Icon" />
-                  </spna>
-                  <h4>Drivers Room</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/water_15681999.png" alt="Children Play Icon" />
-                  </spna>
-                  <h4>24*7 Water Supply</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/gate_5434862.png" alt="Lift Icon" />
-                  </spna>
-                  <h4>My Gate For Every Buliding</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/building_13532546.png" alt="Garden Icon" />
-                  </spna>
-                  <h4>Lavish Clubhouse</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/playground_8242374.png" alt="Parking Icon" />
-                  </spna>
-                  <h4>Kids Play Area</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/cricket-bat_7981129.png" alt="Security Icon" />
-                  </spna>
-                  <h4>Cricket Turf</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/award_10568380.png" alt="CCTV Icon" />
-                  </spna>
-                  <h4>Superior Constructions</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/toilet_2105159.png" alt="CCTV Icon" />
-                  </spna>
-                  <h4>Society Washroom</h4>
-                </div>
-              </div>
-              <div class="col-6 col-lg-4 px_sm_5">
-                <div class="single">
-                  <spna class="icon">
-                    <img src="images/icons/lift.png" alt="Lift Icon" />
-                  </spna>
-                  <h4>Lifts</h4>
-                </div>
-              </div>
+          <div class="col-md-6 px_30 px_sm_15">
+            <div class="location_image">
+              <a
+                href="images/plans/location.jpg"
+                class="with-caption image-link"
+                title="Location Map"
+              >
+                <img
+                  src="images/plans/Map.jpg"
+                  alt="Gaur NYC Residences Location Map"
+                  class="w-100"
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Master & Floor plans -->
+    <!-- gallery section -->
 
-  <section class="floor_plans_section" id="master-floor-plan">
-    <div class="container">
-      <div class="heading_row">
+    <section class="gallery_section" id="gallery">
+      <div class="container">
         <div class="ov_headings center">
-          <h5 class="sec_title">Master & Floors Plans</h5>
-          <h3 class="section_heading">Good Design for Good Moments.</h3>
+          <h5 class="sec_title">Project Gallery</h5>
+          <h3 class="section_heading">Making realty dreams a reality</h3>
         </div>
-      </div>
 
-      <div class="row justify-content-center">
-        <div class="col-md-8 mb_sm_50">
+        <section class="inner_gallery_section">
           <div class="single">
-            <a data-toggle="modal" data-target="#modal1">
-              <img src="images/plans/plans-blur.jpg" alt="Layout Floor plan" class="w-100" />
-              <h3 class="title text-white">Master Plan</h3>
+            <a
+              href="images/gallery-img/1.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
             </a>
           </div>
-        </div>
+
+          <div class="single">
+            <a
+              href="images/gallery-img/3d-rendering-modern-loft-gym-fitness.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/3d-rendering-modern-loft-gym-fitness.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+
+          <div class="single">
+            <a
+              href="images/gallery-img/3d-rendering-dining-set-modern-luxury-dining-room.jpgimages/gallery-img/3.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/3d-rendering-dining-set-modern-luxury-dining-room.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+
+          <div class="single">
+            <a
+              href="images/gallery-img/colorful-playground-yard-park-sunset.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/colorful-playground-yard-park-sunset.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+          <div class="single">
+            <a
+              href="images/gallery-img/indoor-hotel-view.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/indoor-hotel-view.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+          <div class="single">
+            <a
+              href="images/gallery-img/lifestyle-wellbeing-sport-concept-woman-sitting-gym-flo.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/lifestyle-wellbeing-sport-concept-woman-sitting-gym-flo.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+          <div class="single">
+            <a
+              href="iimages/gallery-img/bangkok-thailand-august-12-2016-beautiful-luxury-bathroom.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/bangkok-thailand-august-12-2016-beautiful-luxury-bathroom.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+          <div class="single">
+            <a
+              href="images/gallery-img/hungry-woman-looking-food-fridge-home-dont-have-much-there-white-kitchen-furniture-home-wear-red-silk-robe.jpg"
+              class="with-caption image-link"
+              title=""
+            >
+              <img
+                src="images/gallery-img/hungry-woman-looking-food-fridge-home-dont-have-much-there-white-kitchen-furniture-home-wear-red-silk-robe.jpg"
+                alt="Gallery Image"
+                class="img-fluid w-100"
+              />
+            </a>
+          </div>
+        </section>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- e-brochure section -->
+    <!-- about builder section -->
 
-  <section class="e_brochure_section" id="download-brochure">
-    <div class="container">
-      <div class="row mx_-30 mx_sm_-15">
-        <div class="col-md-6 px_30 px_sm_15">
-          <img src="images/gallery/bangkok-thailand-august-12-2016-beautiful-luxury-living-room-interior-decoration-hotel.jpg" alt="Layout E-Brochure" class="w-100" />
-        </div>
-
-        <div class="col-md-6 px_30 px_sm_15 right_col">
-          <div class="contents">
-            <div class="ov_headings left sm_center">
-              <h5 class="sec_title">Brochure</h5>
-              <h3 class="section_heading">Download E-Brochure</h3>
+    <section class="about_builder" id="contact-us">
+      <div class="container">
+        <div class="row mx_-30 mx_sm_-15">
+          <div class="col-12 col-md-6 px_30 px_sm_15 left_col">
+            <div class="image_col">
+              <img
+                src="images/gallery/3d-rendering-modern-luxury-hotel-office-reception-meeting-lounge.jpg"
+                alt="Overview Image"
+                class="img-fluid"
+              />
             </div>
+          </div>
 
-            <p>
-              Explore every detail of The Green Sapphirre – Khadakpada Annex’s most elegant residential address. Our
-              exclusive e-brochure includes thoughtfully designed floor plans, premium amenities, pricing details, and
-              lifestyle highlights of this beautifully planned green development.
-              Pre-register today to get priority updates, exclusive offers, and early access to booking opportunities.
-            </p>
-            <button class="btn dark_btn download_btn" data-toggle="modal" data-target="#modal1">
-              Request E-Brochure
-            </button>
+          <div class="col-12 col-md-6 px_30 px_sm_15 right_col">
+            <div class="contents">
+              <div class="ov_headings left sm_center">
+                <h5 class="sec_title">About Builder</h5>
+              </div>
+              <p>
+                <b>The Green Sapphirre</b> is developed by a reputed and trusted
+                real estate group known for delivering premium residential
+                projects across <b>Kalyan and beyond</b>. With a clear vision to
+                create homes that balance
+                <b>luxury, comfort, and sustainability</b>, the builder has
+                earned recognition for quality craftsmanship and customer
+                satisfaction. <br /><br />
+                Backed by years of experience in the construction and housing
+                industry, the team behind The Green Sapphirre focuses on modern
+                architecture, superior infrastructure, and environment-friendly
+                development. Each project reflects meticulous planning and an
+                unwavering commitment to excellence.
+                <br /><br />
+                The builder believes in creating more than just living spaces —
+                every project is designed to nurture community living, green
+                surroundings, and contemporary lifestyles. From design to
+                delivery, transparency and trust form the foundation of every
+                endeavor.
+                <br /><br />
+                With <b>The Green Sapphirre</b>, the developer continues to set
+                new benchmarks in <b>premium living</b>, offering a blend of
+                elegance, quality, and peace of mind. Their promise is to
+                deliver not just a home, but a lifestyle where comfort meets
+                class and every moment feels extraordinary.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="about_builder" id="contact-us">
+      <div class="container">
+        <div class="ov_headings center">
+          <h5 class="sec_title"></h5>
+          <h3 class="section_heading">Contact Us</h3>
+        </div>
+        <div class="row flex-column-reverse flex-lg-row mx_-30 mx_sm_-15">
+          <div class="col-12 col-lg-6 px_30 px_sm_15 right_col">
+            <div class="contents map-w">
+              <iframe
+                style="height: 100%"
+                class="map-height"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.1015753044194!2d73.1404215!3d19.2779485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797c09ce64f81%3A0x306e9d52f9c88225!2sThe%20Green%20Sapphirre!5e0!3m2!1sen!2sin!4v1704891089816!5m2!1sen!2sin"
+                width="100%"
+                height="500px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 px_30 px_sm_15 right_col">
+            <div class="contents">
+              <form id="submitform2" action="mail2.php" method="POST">
+                <div class="form-group mx-0">
+                  <label for="name">Name*</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter Your Name*"
+                    name="name"
+                    onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32)"
+                    required=""
+                  />
+                  <div class="outline"></div>
+                </div>
+                <div class="form-group mx-0">
+                  <label for="email">Email*</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter Your Email*"
+                    name="email"
+                    required=""
+                  />
+                  <div class="outline"></div>
+                </div>
+                <div class="form-group mx-0">
+                  <label for="number">Mobile Number*</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="mobile"
+                    placeholder="Mobile No*"
+                    name="mobile"
+                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+                    required=""
+                  />
+                  <div class="outline"></div>
+                </div>
+                <div class="form-group mx-0">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    required=""
+                  ></textarea>
+                  <div class="outline"></div>
+                </div>
+                <button
+                  type="submit"
+                  class="btn dark_btn submit_btn contact_submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          <strong>Disclaimer</strong> We are an authorised marketing partner for
+          this project. Provided content is given by respective owners and this
+          website and content is for information purpose only and it does not
+          constitute any offer to avail for any services. Prices mentioned are
+          subject to change without prior notice and properties mentioned are
+          subject to availability. You can expect a call, SMS or emails on
+          details registered with us.
+        </p>
+        <p class="mobile-p"><b>Project RERA Number:</b> UPRERAAGT10202</p>
+        <p>
+          <a href="privacy-policy.html"> Privacy Policy </a> |
+          <a href="terms-and-condition.html"> Terms & Conditions </a>
+          <!-- <a href="cookies-policy.html"> Cookies & Policy</a> -->
+        </p>
+        <!-- <p>
+        <img src="images/qr-code.jpg" style="width: 13%; margin-top: 10px" />
+      </p> -->
+      </div>
+      <a
+        href="https://api.whatsapp.com/send/?phone=9560252011&text=&type=phone_number&app_absent=0"
+        class="whatsapp-widget d-flex justify-content-center d-none d-lg-block align-items-center"
+        tarityped
+        get="_blank"
+      >
+        <img src="images/whatsapp.png" alt="" />
+      </a>
+    </footer>
+
+    <!-- mobile-section -->
+    <div class="mobile-section d-none d_sm_flex">
+      <a href="tel:+91-9560252011" class="btn">
+        <span class="icon_bg">
+          <span class="img_bg"
+            ><img src="images/icons/call.svg" alt="icon" class="icon"
+          /></span>
+        </span>
+        <b style="color: #fff"> Tap To Call</b>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send/?phone=9560252011&text=&type=phone_number&app_absent=0"
+        class="btn"
+      >
+        <span class="icon_bg">
+          <span class="img_bg"
+            ><img src="images/icons/whatsapp.png" alt="icon" class="icon"
+          /></span>
+        </span>
+        <b style="color: #fff"> Whats App</b>
+      </a>
+
+      <a
+        href="javascript:void(0)"
+        class="btn"
+        title="Enquire Now"
+        data-toggle="modal"
+        data-target="#modal1"
+      >
+        <span class="icon_bg">
+          <span class="img_bg"
+            ><img src="images/icons/envelope.png" alt="icon" class="icon"
+          /></span>
+        </span>
+        <b style="color: #fff"> Enquire Now</b>
+      </a>
     </div>
-  </section>
 
-  <!-- location advantage section -->
-
-  <section class="location_section" id="location-advantage">
-    <div class="container">
-      <div class="row mx_-30 mx_sm_-15">
-        <div class="col-md-6 px_30 px_sm_15">
-          <div class="ov_headings left green sm_center">
-            <h5 class="sec_title text-white">Location Advantage</h5>
-            <h3 class="section_heading text-white">
-              The Comfort of Strategic Connectivity
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="modal1"
+      tabindex="-1"
+      aria-labelledby="modal1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <h3 class="projectName">
+              <img
+                src="images/green-saphirre-logo-01.svg"
+                alt="project logo"
+                class="img-fluid"
+              />
             </h3>
-          </div>
-          <ul class="points text-white">
-            <li>
-              <b>Seamless connectivity to Kalyan, Dombivli, Thane, and Mumbai</b>
-            </li>
-            <li>
-              <b>Easy access to Kalyan-Shil Road, Alyani-Badlapur Highway, and NH-61</b>
-            </li>
-            <li>
-              <b>Just 10 minutes from Kalyan Railway Station and upcoming Metro Line 5</b>
-            </li>
-            <li>
-              <b>Surrounded by lush green landscapes and open spaces offering peaceful living</b>
-            </li>
-            <li>
-              <b>Renowned schools, colleges, and hospitals like Podar International, Fortis, and Holy Cross within close reach</b>
-            </li>
-            <li>
-              <b>Malls, restaurants, and entertainment hubs just a short drive away</b>
-            </li>
-            <li>
-              <b>Located in Khadakpada Annex — one of Kalyan’s fastest-growing and most premium neighborhoods</b>
-            </li>
-            <li>
-              <b>Well-planned infrastructure, wide roads, and a thriving residential community</b>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-6 px_30 px_sm_15">
-          <div class="location_image">
-            <a href="images/plans/location.jpg" class="with-caption image-link" title="Location Map">
-              <img src="images/plans/Map.jpg" alt="Gaur NYC Residences Location Map" class="w-100" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            <h5 class="location">Kalyan(W), Bhiwandi, Maharashtra 421302</h5>
 
-  <!-- gallery section -->
+            <h4 class="form_price">Starts At ₹ 27.9 L*</h4>
 
-  <section class="gallery_section" id="gallery">
-    <div class="container">
-      <div class="ov_headings center">
-        <h5 class="sec_title">Project Gallery</h5>
-        <h3 class="section_heading">Making realty dreams a reality</h3>
-      </div>
-
-      <section class="inner_gallery_section">
-        <div class="single">
-          <a href="images/gallery-img/1.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/3d-rendering-beautiful-luxury-dark-wood-european-classic-bedroom-suite-hotel.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-
-        <div class="single">
-          <a href="images/gallery-img/3d-rendering-modern-loft-gym-fitness.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/3d-rendering-modern-loft-gym-fitness.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-
-        <div class="single">
-          <a href="images/gallery-img/3d-rendering-dining-set-modern-luxury-dining-room.jpgimages/gallery-img/3.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/3d-rendering-dining-set-modern-luxury-dining-room.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-
-        <div class="single">
-          <a href="images/gallery-img/colorful-playground-yard-park-sunset.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/colorful-playground-yard-park-sunset.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-        <div class="single">
-          <a href="images/gallery-img/indoor-hotel-view.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/indoor-hotel-view.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-        <div class="single">
-          <a href="images/gallery-img/lifestyle-wellbeing-sport-concept-woman-sitting-gym-flo.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/lifestyle-wellbeing-sport-concept-woman-sitting-gym-flo.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-        <div class="single">
-          <a href="iimages/gallery-img/bangkok-thailand-august-12-2016-beautiful-luxury-bathroom.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/bangkok-thailand-august-12-2016-beautiful-luxury-bathroom.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-        <div class="single">
-          <a href="images/gallery-img/hungry-woman-looking-food-fridge-home-dont-have-much-there-white-kitchen-furniture-home-wear-red-silk-robe.jpg" class="with-caption image-link" title="">
-            <img src="images/gallery-img/hungry-woman-looking-food-fridge-home-dont-have-much-there-white-kitchen-furniture-home-wear-red-silk-robe.jpg" alt="Gallery Image" class="img-fluid w-100" />
-          </a>
-        </div>
-      </section>
-    </div>
-  </section>
-
-  <!-- about builder section -->
-
-  <section class="about_builder" id="contact-us">
-    <div class="container">
-      <div class="row mx_-30 mx_sm_-15">
-        <div class="col-12 col-md-6 px_30 px_sm_15 left_col">
-          <div class="image_col">
-            <img src="images/gallery/3d-rendering-modern-luxury-hotel-office-reception-meeting-lounge.jpg" alt="Overview Image" class="img-fluid" />
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 px_30 px_sm_15 right_col">
-          <div class="contents">
-            <div class="ov_headings left sm_center">
-              <h5 class="sec_title">About Builder</h5>
-            </div>
-<p>
-  <b>The Green Sapphirre</b> is developed by a reputed and trusted real estate group
-  known for delivering premium residential projects across <b>Kalyan and beyond</b>.
-  With a clear vision to create homes that balance <b>luxury, comfort, and sustainability</b>,
-  the builder has earned recognition for quality craftsmanship and customer satisfaction.
-  <br /><br />
-  Backed by years of experience in the construction and housing industry, the team behind
-  The Green Sapphirre focuses on modern architecture, superior infrastructure, and
-  environment-friendly development. Each project reflects meticulous planning and
-  an unwavering commitment to excellence.
-  <br /><br />
-  The builder believes in creating more than just living spaces — every project is designed
-  to nurture community living, green surroundings, and contemporary lifestyles.
-  From design to delivery, transparency and trust form the foundation of every endeavor.
-  <br /><br />
-  With <b>The Green Sapphirre</b>, the developer continues to set new benchmarks in
-  <b>premium living</b>, offering a blend of elegance, quality, and peace of mind.
-  Their promise is to deliver not just a home, but a lifestyle where comfort meets class
-  and every moment feels extraordinary.
-</p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="about_builder" id="contact-us">
-    <div class="container">
-      <div class="ov_headings center">
-        <h5 class="sec_title"></h5>
-        <h3 class="section_heading">Contact Us</h3>
-      </div>
-      <div class="row flex-column-reverse flex-lg-row mx_-30 mx_sm_-15">
-        <div class="col-12 col-lg-6 px_30 px_sm_15 right_col">
-<div class="contents map-w">
-<iframe style="height:500px;" class="map-height" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.1015753044194!2d73.1404215!3d19.2779485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797c09ce64f81%3A0x306e9d52f9c88225!2sThe%20Green%20Sapphirre!5e0!3m2!1sen!2sin!4v1704891089816!5m2!1sen!2sin" width="100%" height="500px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-</div>
-
-        </div>
-        <div class="col-12 col-lg-6 px_30 px_sm_15 right_col">
-          <div class="contents">
-            <form id="submitform2" action="mail2.php" method="POST">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              &times;
+            </button>
+            <form id="submitform1" action="mail.php" method="POST">
               <div class="form-group mx-0">
                 <label for="name">Name*</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter Your Name*" name="name"
-                  onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32)"
-                  required="" />
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your Name*"
+                  name="name"
+                  onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || event.charCode == 32)"
+                  autocomplete="false"
+                  title="Enter Name"
+                />
                 <div class="outline"></div>
               </div>
+
               <div class="form-group mx-0">
                 <label for="email">Email*</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter Your Email*" name="email"
-                  required="" />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Your Email*"
+                  name="email"
+                  required=""
+                />
                 <div class="outline"></div>
               </div>
+
               <div class="form-group mx-0">
                 <label for="number">Mobile Number*</label>
-                <input type="text" class="form-control" id="mobile" placeholder="Mobile No*" name="mobile"
-                  onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
-                  required="" />
+                <input
+                  id="phone"
+                  class="form-control"
+                  placeholder="Mobile No*"
+                  name="phone"
+                  onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57"
+                />
                 <div class="outline"></div>
               </div>
               <div class="form-group mx-0">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" placeholder="Enter Your Message" name="message"
-                  required=""></textarea>
+                <input
+                  type="hidden"
+                  value="Form"
+                  class="form-control"
+                  id="source"
+                  name="source"
+                />
                 <div class="outline"></div>
               </div>
-              <button type="submit" class="btn dark_btn submit_btn contact_submit">
+              <button type="submit" class="btn dark_btn submit_btn popup_form">
                 Submit
               </button>
             </form>
@@ -1428,323 +2062,221 @@
         </div>
       </div>
     </div>
-  </section>
 
-  <footer>
-    <div class="container">
-      <p>
-        <strong>Disclaimer</strong> We are an authorised marketing partner for
-        this project. Provided content is given by respective owners and this
-        website and content is for information purpose only and it does not
-        constitute any offer to avail for any services. Prices mentioned are
-        subject to change without prior notice and properties mentioned are
-        subject to availability. You can expect a call, SMS or emails on
-        details registered with us.
-      </p>
-      <p class="mobile-p"><b>Project RERA Number:</b> UPRERAAGT10202</p>
-      <p>
-        <a href="privacy-policy.html"> Privacy Policy </a> |
-        <a href="terms-and-condition.html"> Terms & Conditions </a>
-        <!-- <a href="cookies-policy.html"> Cookies & Policy</a> -->
-      </p>
-      <!-- <p>
-        <img src="images/qr-code.jpg" style="width: 13%; margin-top: 10px" />
-      </p> -->
-    </div>
-    <a href="https://api.whatsapp.com/send/?phone=9560252011&text=&type=phone_number&app_absent=0"
-      class="whatsapp-widget d-flex justify-content-center d-none d-lg-block align-items-center" tarityped get="_blank">
-      <img src="images/whatsapp.png" alt="" />
-    </a>
-  </footer>
+    <script>
+      (function () {
+        if (window.matchMedia("(max-width: 600px)").matches) {
+          Array.from(document.getElementsByClassName("d_sm_none")).forEach(
+            function (item) {
+              item.parentNode.removeChild(item);
+            }
+          );
+        } else {
+          Array.from(document.getElementsByClassName("d_sm_block")).forEach(
+            function (item) {
+              item.parentNode.removeChild(item);
+            }
+          );
+        }
+      })();
+    </script>
 
-  <!-- mobile-section -->
-  <div class="mobile-section d-none d_sm_flex">
-    <a href="tel:+91-9560252011" class="btn">
-      <span class="icon_bg">
-        <span class="img_bg"><img src="images/icons/call.svg" alt="icon" class="icon" /></span>
-      </span>
-      <b style="color: #fff"> Tap To Call</b>
-    </a>
-    <a href="https://api.whatsapp.com/send/?phone=9560252011&text=&type=phone_number&app_absent=0" class="btn">
-      <span class="icon_bg">
-        <span class="img_bg"><img src="images/icons/whatsapp.png" alt="icon" class="icon" /></span>
-      </span>
-      <b style="color: #fff"> Whats App</b>
-    </a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
 
-    <a href="javascript:void(0)" class="btn" title="Enquire Now" data-toggle="modal" data-target="#modal1">
-      <span class="icon_bg">
-        <span class="img_bg"><img src="images/icons/envelope.png" alt="icon" class="icon" /></span>
-      </span>
-      <b style="color: #fff"> Enquire Now</b>
-    </a>
-  </div>
+    <script>
+      let navbarBackdrop = $('<div class="navbarBackdrop"></div>');
+      $(".navbar .navbar-toggler").on("click", function () {
+        $(".navbar .navbar-collapse").addClass("show");
+        $("body").addClass("overflow-hidden");
+        $(".navbar").append(navbarBackdrop);
+      });
 
-  <!-- modal -->
-  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-body">
-          <h3 class="projectName">
-            <img src="images/green-saphirre-logo-01.svg" alt="project logo" class="img-fluid" />
-          </h3>
-          <h5 class="location">Kalyan(W), Bhiwandi, Maharashtra 421302</h5>
-
-          <h4 class="form_price">Starts At ₹ 27.9 L*</h4>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            &times;
-          </button>
-          <form id="submitform1" action="mail.php" method="POST">
-            <div class="form-group mx-0">
-              <label for="name">Name*</label>
-              <input type="text" id="name" class="form-control" placeholder="Your Name*" name="name"
-                onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || event.charCode == 32)"
-                autocomplete="false" title="Enter Name" />
-              <div class="outline"></div>
-            </div>
-
-            <div class="form-group mx-0">
-              <label for="email">Email*</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter Your Email*" name="email"
-                required="" />
-              <div class="outline"></div>
-            </div>
-
-            <div class="form-group mx-0">
-              <label for="number">Mobile Number*</label>
-              <input id="phone" class="form-control" placeholder="Mobile No*" name="phone"
-                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57" />
-              <div class="outline"></div>
-            </div>
-            <div class="form-group mx-0">
-              <input type="hidden" value="Form" class="form-control" id="source" name="source" />
-              <div class="outline"></div>
-            </div>
-            <button type="submit" class="btn dark_btn submit_btn popup_form">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    (function () {
-      if (window.matchMedia("(max-width: 600px)").matches) {
-        Array.from(document.getElementsByClassName("d_sm_none")).forEach(
-          function (item) {
-            item.parentNode.removeChild(item);
-          }
-        );
-      } else {
-        Array.from(document.getElementsByClassName("d_sm_block")).forEach(
-          function (item) {
-            item.parentNode.removeChild(item);
-          }
-        );
-      }
-    })();
-  </script>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-
-  <script>
-    let navbarBackdrop = $('<div class="navbarBackdrop"></div>');
-    $(".navbar .navbar-toggler").on("click", function () {
-      $(".navbar .navbar-collapse").addClass("show");
-      $("body").addClass("overflow-hidden");
-      $(".navbar").append(navbarBackdrop);
-    });
-
-    $(".navbar .navbar-collapse .close").on("click", function () {
-      $(".navbar .navbar-collapse").removeClass("show");
-      $("body").removeClass("overflow-hidden");
-      $(navbarBackdrop).remove();
-    });
-
-    $(document).on("click", function (e) {
-      if ($(e.target).hasClass("navbarBackdrop")) {
-        $(e.target).remove();
+      $(".navbar .navbar-collapse .close").on("click", function () {
         $(".navbar .navbar-collapse").removeClass("show");
         $("body").removeClass("overflow-hidden");
-      } else if ($(e.target).hasClass("nav-link")) {
         $(navbarBackdrop).remove();
-        $(".navbar .navbar-collapse").removeClass("show");
-        $("body").removeClass("overflow-hidden");
-      }
-    });
-  </script>
+      });
 
-  <script>
-    $(document).ready(function () {
-      let builderLogo = $(".images/logo.jpg");
-      $(window).scroll(function () {
-        if (window.matchMedia("(min-width: 700px)").matches) {
-          let scroll = $(window).scrollTop();
-          if (scroll >= 100) {
-            $(".navbar").addClass("fixed");
-            $(builderLogo).attr("src", "images/logo.jpg");
-          } else {
-            $(".navbar").removeClass("fixed");
-            $(builderLogo).attr("src", "images/logo.jpg");
-          }
+      $(document).on("click", function (e) {
+        if ($(e.target).hasClass("navbarBackdrop")) {
+          $(e.target).remove();
+          $(".navbar .navbar-collapse").removeClass("show");
+          $("body").removeClass("overflow-hidden");
+        } else if ($(e.target).hasClass("nav-link")) {
+          $(navbarBackdrop).remove();
+          $(".navbar .navbar-collapse").removeClass("show");
+          $("body").removeClass("overflow-hidden");
         }
       });
-    });
-  </script>
+    </script>
 
-  <script>
-    // link-target
-    $(".nav-link-custom").on("click", function (e) {
-      var target = this.hash,
-        $target = $(target);
-
-      $("html, body")
-        .stop()
-        .animate(
-          {
-            scrollTop: $target.offset().top - 50,
-          },
-          800,
-          "swing",
-          function () {
-            window.location.hash = target;
+    <script>
+      $(document).ready(function () {
+        let builderLogo = $(".images/logo.jpg");
+        $(window).scroll(function () {
+          if (window.matchMedia("(min-width: 700px)").matches) {
+            let scroll = $(window).scrollTop();
+            if (scroll >= 100) {
+              $(".navbar").addClass("fixed");
+              $(builderLogo).attr("src", "images/logo.jpg");
+            } else {
+              $(".navbar").removeClass("fixed");
+              $(builderLogo).attr("src", "images/logo.jpg");
+            }
           }
-        );
-    });
-  </script>
+        });
+      });
+    </script>
 
-  <script type="text/javascript" language="javascript">
-    var versionUpdate = new Date().getTime();
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src =
-      "../api2.gtftech.com/scripts/queryform.min.sslec92.js?v=" +
-      versionUpdate;
-    document.body.appendChild(script);
-  </script>
+    <script>
+      // link-target
+      $(".nav-link-custom").on("click", function (e) {
+        var target = this.hash,
+          $target = $(target);
 
-  <script>
-    $(".without-caption").magnificPopup({
-      type: "image",
-      closeOnContentClick: true,
-      closeBtnInside: false,
-      mainClass: "mfp-no-margins mfp-with-zoom", // class to remove default margin from left and right side
-      image: {
-        verticalFit: true,
-      },
-      zoom: {
-        enabled: true,
-        duration: 300, // don't foget to change the duration also in CSS
-      },
-    });
-
-    $(".with-caption").magnificPopup({
-      type: "image",
-      closeOnContentClick: true,
-      closeBtnInside: false,
-      mainClass: "mfp-with-zoom mfp-img-mobile",
-      image: {
-        verticalFit: true,
-        titleSrc: function (item) {
-          return (
-            item.el.attr("title") +
-            ' &middot; <a class="image-source-link" href="' +
-            item.el.attr("data-source") +
-            '" target="_blank"></a>'
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $target.offset().top - 50,
+            },
+            800,
+            "swing",
+            function () {
+              window.location.hash = target;
+            }
           );
+      });
+    </script>
+
+    <script type="text/javascript" language="javascript">
+      var versionUpdate = new Date().getTime();
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src =
+        "../api2.gtftech.com/scripts/queryform.min.sslec92.js?v=" +
+        versionUpdate;
+      document.body.appendChild(script);
+    </script>
+
+    <script>
+      $(".without-caption").magnificPopup({
+        type: "image",
+        closeOnContentClick: true,
+        closeBtnInside: false,
+        mainClass: "mfp-no-margins mfp-with-zoom", // class to remove default margin from left and right side
+        image: {
+          verticalFit: true,
         },
-      },
-      zoom: {
-        enabled: true,
-      },
-    });
-  </script>
-
-  <script>
-    jQuery(window).on("load", function () {
-      setTimeout(function () {
-        jQuery("#modal1").modal("show");
-      }, 3000);
-    });
-  </script>
-
-  <script>
-    $("#PopupForm").on("submit", function (e) {
-      e.preventDefault();
-      var form = $(this);
-      var brochure = $("#brochure").val();
-      var plans = $("#plans").val();
-
-      $.ajax({
-        type: form.attr("method"),
-        url: form.attr("action"),
-        data: form.serialize(),
-        success: function (response) {
-          if (response.message == "Success") {
-            if (brochure == 1) {
-              downloadFile("img/brochure.pdf");
-            }
-            if (plans == 1) {
-              downloadFile("img/plans.pdf");
-            }
-
-            window.location.href = "thank-you.html";
-          } else if (response.message == "Failed") {
-            alert(response.message);
-          } else {
-            alert(response.message);
-          }
-        },
-        error: function (response) {
-          alert(response.message);
+        zoom: {
+          enabled: true,
+          duration: 300, // don't foget to change the duration also in CSS
         },
       });
-    });
 
-    // Function to trigger file download
-    function downloadFile(fileUrl) {
-      var a = document.createElement("a");
-      a.href = fileUrl;
-      a.download = fileUrl.split("/").pop(); // Extracts filename
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    }
-  </script>
-
-  <script>
-    if ($("#ContactForm1").length > 0) {
-      $("#ContactForm1").validate({
-        rules: {
-          name: {
-            required: true,
-            alphabets: true,
-            maxlength: 100,
-          },
-          phone: {
-            required: true,
-            number: true,
-            mobile: true,
-            minlength: 10,
-            maxlength: 10,
-          },
-          email: {
-            required: true,
-            email: true,
+      $(".with-caption").magnificPopup({
+        type: "image",
+        closeOnContentClick: true,
+        closeBtnInside: false,
+        mainClass: "mfp-with-zoom mfp-img-mobile",
+        image: {
+          verticalFit: true,
+          titleSrc: function (item) {
+            return (
+              item.el.attr("title") +
+              ' &middot; <a class="image-source-link" href="' +
+              item.el.attr("data-source") +
+              '" target="_blank"></a>'
+            );
           },
         },
-        submitHandler: function (form) {
-          $(form).find(":submit").prop("disabled", true);
-          form.submit();
+        zoom: {
+          enabled: true,
         },
       });
-    }
-  </script>
-</body>
+    </script>
 
+    <script>
+      jQuery(window).on("load", function () {
+        setTimeout(function () {
+          jQuery("#modal1").modal("show");
+        }, 3000);
+      });
+    </script>
+
+    <script>
+      $("#PopupForm").on("submit", function (e) {
+        e.preventDefault();
+        var form = $(this);
+        var brochure = $("#brochure").val();
+        var plans = $("#plans").val();
+
+        $.ajax({
+          type: form.attr("method"),
+          url: form.attr("action"),
+          data: form.serialize(),
+          success: function (response) {
+            if (response.message == "Success") {
+              if (brochure == 1) {
+                downloadFile("img/brochure.pdf");
+              }
+              if (plans == 1) {
+                downloadFile("img/plans.pdf");
+              }
+
+              window.location.href = "thank-you.html";
+            } else if (response.message == "Failed") {
+              alert(response.message);
+            } else {
+              alert(response.message);
+            }
+          },
+          error: function (response) {
+            alert(response.message);
+          },
+        });
+      });
+
+      // Function to trigger file download
+      function downloadFile(fileUrl) {
+        var a = document.createElement("a");
+        a.href = fileUrl;
+        a.download = fileUrl.split("/").pop(); // Extracts filename
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+    </script>
+
+    <script>
+      if ($("#ContactForm1").length > 0) {
+        $("#ContactForm1").validate({
+          rules: {
+            name: {
+              required: true,
+              alphabets: true,
+              maxlength: 100,
+            },
+            phone: {
+              required: true,
+              number: true,
+              mobile: true,
+              minlength: 10,
+              maxlength: 10,
+            },
+            email: {
+              required: true,
+              email: true,
+            },
+          },
+          submitHandler: function (form) {
+            $(form).find(":submit").prop("disabled", true);
+            form.submit();
+          },
+        });
+      }
+    </script>
+  </body>
 </html>
