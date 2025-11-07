@@ -1617,7 +1617,7 @@ h6 {
   z-index: -1;
   transform: skewY(-10deg);
   border-radius: 20px;
-    background-image: linear-gradient(to bottom, #4eb548, #56553a);}
+        background-image: linear-gradient(to bottom, #ffd700, #ffe700);}
 
 .price_section .single_price .content:after {
   position: absolute;
@@ -1645,7 +1645,7 @@ h6 {
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
-  background: linear-gradient(135deg, #4eb548, #56553a);
+    background-image: linear-gradient(to bottom, #ffd700, #ffe700);
   padding: 35px 18px;
   height: calc(100% + 60px);
   text-align: center;
@@ -1756,7 +1756,7 @@ h6 {
   content: "";
   height: 190px;
   width: 100%;
-  background: #4eb548;
+      background-image: linear-gradient(to bottom, #ffd700, #ffe700);
 }
 
 .amenity_section .left_col {
@@ -3388,9 +3388,6 @@ footer a {
     background-attachment: fixed;
   }
 
-  .price_section .price_row {
-    /* max-width:100%; */
-  }
 
   .price_section .price_col {
     padding: 0 15px;
